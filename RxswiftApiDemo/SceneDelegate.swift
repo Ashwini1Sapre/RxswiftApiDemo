@@ -8,6 +8,9 @@
 import UIKit
 import SwiftUI
 
+let senceDelegate = UIApplication.shared.connectedScenes.first!.delegate as! SceneDelegate
+
+
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
