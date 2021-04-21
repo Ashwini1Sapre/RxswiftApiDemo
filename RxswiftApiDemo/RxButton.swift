@@ -44,8 +44,3 @@ struct RxButton: View {
     }
 }
 
-//struct RxButton_Previews: PreviewProvider {
-//    static var previews: some View {
-//        RxButton()
-//    }
-//}

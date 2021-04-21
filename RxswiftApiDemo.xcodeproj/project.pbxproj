@@ -3,11 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3DE15777B48A49A659986275 /* Pods_RxswiftApiDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61A99CF99208707D964F73E1 /* Pods_RxswiftApiDemo.framework */; };
+		6050ED07262FED450003FE27 /* TextfeildViewNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050ED06262FED450003FE27 /* TextfeildViewNew.swift */; };
+		6050ED54262FF6D30003FE27 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 6050ED53262FF6D30003FE27 /* SwiftyJSON */; };
+		6050ED58262FF6F90003FE27 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 6050ED57262FF6F90003FE27 /* SDWebImageSwiftUI */; };
+		6050ED5C262FF8130003FE27 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050ED5B262FF8130003FE27 /* CardModel.swift */; };
+		6050ED61262FF8B90003FE27 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050ED60262FF8B90003FE27 /* NetworkManager.swift */; };
+		6050ED65262FFA490003FE27 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050ED64262FFA490003FE27 /* NetworkService.swift */; };
+		6050ED682630029D0003FE27 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050ED672630029D0003FE27 /* CardView.swift */; };
+		6050ED70263004A30003FE27 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050ED6F263004A30003FE27 /* CardViewModel.swift */; };
+		6050EE4726300DCD0003FE27 /* RxswiftApiDemoModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6050EE4526300DCD0003FE27 /* RxswiftApiDemoModel.xcdatamodeld */; };
+		6050EE4C263021B70003FE27 /* ObjectMapper in Frameworks */ = {isa = PBXBuildFile; productRef = 6050EE4B263021B70003FE27 /* ObjectMapper */; };
+		6050EE8C263025F30003FE27 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050EE8B263025F30003FE27 /* Book.swift */; };
+		6050EE92263027C70003FE27 /* BookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050EE91263027C70003FE27 /* BookViewModel.swift */; };
+		6050EE95263027F00003FE27 /* BooksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050EE94263027F00003FE27 /* BooksViewModel.swift */; };
+		6050EE99263035120003FE27 /* BookEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050EE98263035120003FE27 /* BookEditView.swift */; };
+		6050EE9C2630352A0003FE27 /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050EE9B2630352A0003FE27 /* BookDetailView.swift */; };
+		6050EE9F2630353C0003FE27 /* BookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050EE9E2630353C0003FE27 /* BookListView.swift */; };
 		60783E05262EB01100204C88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60783E04262EB01100204C88 /* AppDelegate.swift */; };
 		60783E07262EB01100204C88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60783E06262EB01100204C88 /* SceneDelegate.swift */; };
 		60783E09262EB01100204C88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60783E08262EB01100204C88 /* ContentView.swift */; };
@@ -22,16 +38,28 @@
 		60783E41262EE3FF00204C88 /* LoginHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60783E40262EE3FF00204C88 /* LoginHandler.swift */; };
 		60783E45262EE43A00204C88 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60783E44262EE43A00204C88 /* APIHandler.swift */; };
 		60783E49262EE8DB00204C88 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60783E48262EE8DB00204C88 /* LoginViewModel.swift */; };
-		60783E4E262EF4F900204C88 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60783E4D262EF4F900204C88 /* LoadingView.swift */; };
-		60783E51262EF71900204C88 /* ActivityLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60783E50262EF71900204C88 /* ActivityLoaderView.swift */; };
-		60783E54262EFAA100204C88 /* TextFeildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60783E53262EFAA100204C88 /* TextFeildView.swift */; };
 		60783E58262F01E700204C88 /* DogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60783E57262F01E700204C88 /* DogView.swift */; };
-		60783E5C262F055200204C88 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60783E5B262F055200204C88 /* LoginView.swift */; };
+		60783F19262F0F5F00204C88 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60783F17262F0F5F00204C88 /* LoadingView.swift */; };
+		60783F1A262F0F5F00204C88 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60783F18262F0F5F00204C88 /* LoginView.swift */; };
+		60783F20262F0F7300204C88 /* ActivityLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60783F1F262F0F7300204C88 /* ActivityLoaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		40D4C739D8DB227346077A8D /* Pods-RxswiftApiDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxswiftApiDemo.debug.xcconfig"; path = "Target Support Files/Pods-RxswiftApiDemo/Pods-RxswiftApiDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		58C6F77F65FF60B040245346 /* Pods-RxswiftApiDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxswiftApiDemo.release.xcconfig"; path = "Target Support Files/Pods-RxswiftApiDemo/Pods-RxswiftApiDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6050ED06262FED450003FE27 /* TextfeildViewNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfeildViewNew.swift; sourceTree = "<group>"; };
+		6050ED5B262FF8130003FE27 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		6050ED60262FF8B90003FE27 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		6050ED64262FFA490003FE27 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		6050ED672630029D0003FE27 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		6050ED6F263004A30003FE27 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		6050EE4626300DCD0003FE27 /* RxswiftApiDemoModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RxswiftApiDemoModel.xcdatamodel; sourceTree = "<group>"; };
+		6050EE8B263025F30003FE27 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		6050EE91263027C70003FE27 /* BookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewModel.swift; sourceTree = "<group>"; };
+		6050EE94263027F00003FE27 /* BooksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewModel.swift; sourceTree = "<group>"; };
+		6050EE98263035120003FE27 /* BookEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookEditView.swift; sourceTree = "<group>"; };
+		6050EE9B2630352A0003FE27 /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
+		6050EE9E2630353C0003FE27 /* BookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListView.swift; sourceTree = "<group>"; };
 		60783E01262EB01100204C88 /* RxswiftApiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxswiftApiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60783E04262EB01100204C88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60783E06262EB01100204C88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,11 +76,10 @@
 		60783E40262EE3FF00204C88 /* LoginHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHandler.swift; sourceTree = "<group>"; };
 		60783E44262EE43A00204C88 /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
 		60783E48262EE8DB00204C88 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
-		60783E4D262EF4F900204C88 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
-		60783E50262EF71900204C88 /* ActivityLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityLoaderView.swift; sourceTree = "<group>"; };
-		60783E53262EFAA100204C88 /* TextFeildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFeildView.swift; sourceTree = "<group>"; };
 		60783E57262F01E700204C88 /* DogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogView.swift; sourceTree = "<group>"; };
-		60783E5B262F055200204C88 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		60783F17262F0F5F00204C88 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		60783F18262F0F5F00204C88 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		60783F1F262F0F7300204C88 /* ActivityLoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityLoaderView.swift; sourceTree = "<group>"; };
 		61A99CF99208707D964F73E1 /* Pods_RxswiftApiDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxswiftApiDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -61,6 +88,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6050EE4C263021B70003FE27 /* ObjectMapper in Frameworks */,
+				6050ED58262FF6F90003FE27 /* SDWebImageSwiftUI in Frameworks */,
+				6050ED54262FF6D30003FE27 /* SwiftyJSON in Frameworks */,
 				3DE15777B48A49A659986275 /* Pods_RxswiftApiDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,10 +98,91 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6050ED5A262FF7E40003FE27 /* AlmaFireDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6050ED6E263004880003FE27 /* ViewModel */,
+				6050ED6D2630047D0003FE27 /* view */,
+				6050ED5F262FF89C0003FE27 /* Network */,
+				6050ED5E262FF8910003FE27 /* Model */,
+			);
+			path = AlmaFireDemo;
+			sourceTree = "<group>";
+		};
+		6050ED5E262FF8910003FE27 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6050ED5B262FF8130003FE27 /* CardModel.swift */,
+				6050EE4526300DCD0003FE27 /* RxswiftApiDemoModel.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6050ED5F262FF89C0003FE27 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6050ED60262FF8B90003FE27 /* NetworkManager.swift */,
+				6050ED64262FFA490003FE27 /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		6050ED6D2630047D0003FE27 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				6050ED672630029D0003FE27 /* CardView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		6050ED6E263004880003FE27 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6050ED6F263004A30003FE27 /* CardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6050EE6A263024F20003FE27 /* FirebaseWithMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				6050EE90263027A80003FE27 /* View */,
+				6050EE8F263027940003FE27 /* ViewModel */,
+				6050EE89263025D70003FE27 /* Model */,
+			);
+			path = FirebaseWithMVVM;
+			sourceTree = "<group>";
+		};
+		6050EE89263025D70003FE27 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6050EE8B263025F30003FE27 /* Book.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6050EE8F263027940003FE27 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6050EE91263027C70003FE27 /* BookViewModel.swift */,
+				6050EE94263027F00003FE27 /* BooksViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6050EE90263027A80003FE27 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6050EE98263035120003FE27 /* BookEditView.swift */,
+				6050EE9B2630352A0003FE27 /* BookDetailView.swift */,
+				6050EE9E2630353C0003FE27 /* BookListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		60783DF8262EB01100204C88 = {
 			isa = PBXGroup;
 			children = (
-				60783E39262EE1D500204C88 /* RandomDogsSelection */,
 				60783E03262EB01100204C88 /* RxswiftApiDemo */,
 				60783E02262EB01100204C88 /* Products */,
 				EFC9F269834C9D31782C4561 /* Pods */,
@@ -90,6 +201,8 @@
 		60783E03262EB01100204C88 /* RxswiftApiDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6050EE6A263024F20003FE27 /* FirebaseWithMVVM */,
+				6050ED5A262FF7E40003FE27 /* AlmaFireDemo */,
 				60783E04262EB01100204C88 /* AppDelegate.swift */,
 				60783E06262EB01100204C88 /* SceneDelegate.swift */,
 				60783E08262EB01100204C88 /* ContentView.swift */,
@@ -97,6 +210,7 @@
 				60783E25262EB45D00204C88 /* RxButton.swift */,
 				60783E28262EB64900204C88 /* RXAlamafireApi.swift */,
 				60783E33262ED02F00204C88 /* SwiftUIApiCallingView.swift */,
+				60783E39262EE1D500204C88 /* RandomDogsSelection */,
 				60783E0A262EB01200204C88 /* Assets.xcassets */,
 				60783E0F262EB01200204C88 /* LaunchScreen.storyboard */,
 				60783E12262EB01200204C88 /* Info.plist */,
@@ -152,21 +266,13 @@
 		60783E4C262EF4D600204C88 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				60783E56262F017500204C88 /* ResusableClass */,
 				60783E57262F01E700204C88 /* DogView.swift */,
-				60783E53262EFAA100204C88 /* TextFeildView.swift */,
-				60783E5B262F055200204C88 /* LoginView.swift */,
+				60783F17262F0F5F00204C88 /* LoadingView.swift */,
+				60783F18262F0F5F00204C88 /* LoginView.swift */,
+				60783F1F262F0F7300204C88 /* ActivityLoaderView.swift */,
+				6050ED06262FED450003FE27 /* TextfeildViewNew.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		60783E56262F017500204C88 /* ResusableClass */ = {
-			isa = PBXGroup;
-			children = (
-				60783E4D262EF4F900204C88 /* LoadingView.swift */,
-				60783E50262EF71900204C88 /* ActivityLoaderView.swift */,
-			);
-			path = ResusableClass;
 			sourceTree = "<group>";
 		};
 		E2B9019E580893B03A8A921E /* Frameworks */ = {
@@ -204,6 +310,11 @@
 			dependencies = (
 			);
 			name = RxswiftApiDemo;
+			packageProductDependencies = (
+				6050ED53262FF6D30003FE27 /* SwiftyJSON */,
+				6050ED57262FF6F90003FE27 /* SDWebImageSwiftUI */,
+				6050EE4B263021B70003FE27 /* ObjectMapper */,
+			);
 			productName = RxswiftApiDemo;
 			productReference = 60783E01262EB01100204C88 /* RxswiftApiDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -231,6 +342,11 @@
 				Base,
 			);
 			mainGroup = 60783DF8262EB01100204C88;
+			packageReferences = (
+				6050ED52262FF6D30003FE27 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				6050ED56262FF6F90003FE27 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				6050EE4A263021B70003FE27 /* XCRemoteSwiftPackageReference "ObjectMapper" */,
+			);
 			productRefGroup = 60783E02262EB01100204C88 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -300,21 +416,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6050ED70263004A30003FE27 /* CardViewModel.swift in Sources */,
+				6050ED61262FF8B90003FE27 /* NetworkManager.swift in Sources */,
+				6050EE99263035120003FE27 /* BookEditView.swift in Sources */,
 				60783E41262EE3FF00204C88 /* LoginHandler.swift in Sources */,
 				60783E58262F01E700204C88 /* DogView.swift in Sources */,
-				60783E51262EF71900204C88 /* ActivityLoaderView.swift in Sources */,
+				60783F20262F0F7300204C88 /* ActivityLoaderView.swift in Sources */,
 				60783E05262EB01100204C88 /* AppDelegate.swift in Sources */,
 				60783E49262EE8DB00204C88 /* LoginViewModel.swift in Sources */,
+				6050ED5C262FF8130003FE27 /* CardModel.swift in Sources */,
+				6050EE8C263025F30003FE27 /* Book.swift in Sources */,
+				6050ED682630029D0003FE27 /* CardView.swift in Sources */,
 				60783E26262EB45D00204C88 /* RxButton.swift in Sources */,
 				60783E34262ED02F00204C88 /* SwiftUIApiCallingView.swift in Sources */,
-				60783E4E262EF4F900204C88 /* LoadingView.swift in Sources */,
+				6050EE4726300DCD0003FE27 /* RxswiftApiDemoModel.xcdatamodeld in Sources */,
 				60783E22262EB08300204C88 /* RxLoaderView.swift in Sources */,
+				6050ED65262FFA490003FE27 /* NetworkService.swift in Sources */,
 				60783E29262EB64900204C88 /* RXAlamafireApi.swift in Sources */,
+				60783F1A262F0F5F00204C88 /* LoginView.swift in Sources */,
 				60783E07262EB01100204C88 /* SceneDelegate.swift in Sources */,
-				60783E54262EFAA100204C88 /* TextFeildView.swift in Sources */,
+				6050EE9F2630353C0003FE27 /* BookListView.swift in Sources */,
+				6050EE9C2630352A0003FE27 /* BookDetailView.swift in Sources */,
+				6050ED07262FED450003FE27 /* TextfeildViewNew.swift in Sources */,
+				6050EE92263027C70003FE27 /* BookViewModel.swift in Sources */,
+				6050EE95263027F00003FE27 /* BooksViewModel.swift in Sources */,
 				60783E45262EE43A00204C88 /* APIHandler.swift in Sources */,
 				60783E09262EB01100204C88 /* ContentView.swift in Sources */,
-				60783E5C262F055200204C88 /* LoginView.swift in Sources */,
+				60783F19262F0F5F00204C88 /* LoadingView.swift in Sources */,
 				60783E3C262EE26300204C88 /* WoofResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,7 +592,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = knoxpo.RxswiftApiDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.knoxpo.RegisterWithFirebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -486,7 +614,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = knoxpo.RxswiftApiDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.knoxpo.RegisterWithFirebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -515,6 +643,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6050ED52262FF6D30003FE27 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		6050ED56262FF6F90003FE27 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
+		6050EE4A263021B70003FE27 /* XCRemoteSwiftPackageReference "ObjectMapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tristanhimmelman/ObjectMapper.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6050ED53262FF6D30003FE27 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6050ED52262FF6D30003FE27 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		6050ED57262FF6F90003FE27 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6050ED56262FF6F90003FE27 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		6050EE4B263021B70003FE27 /* ObjectMapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6050EE4A263021B70003FE27 /* XCRemoteSwiftPackageReference "ObjectMapper" */;
+			productName = ObjectMapper;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		6050EE4526300DCD0003FE27 /* RxswiftApiDemoModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6050EE4626300DCD0003FE27 /* RxswiftApiDemoModel.xcdatamodel */,
+			);
+			currentVersion = 6050EE4626300DCD0003FE27 /* RxswiftApiDemoModel.xcdatamodel */;
+			path = RxswiftApiDemoModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 60783DF9262EB01100204C88 /* Project object */;
 }

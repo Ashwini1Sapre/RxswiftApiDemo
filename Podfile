@@ -10,5 +10,13 @@ target 'RxswiftApiDemo' do
   pod 'RxSwift'
   pod 'Alamofire'
   pod 'NVActivityIndicatorView'
+pod 'Firebase/Analytics'
+
+
+pod 'Firebase/Auth'
+pod 'Firebase/Firestore'
+pod 'Firebase/Database'
+pod 'Firebase/Storage'
+pod 'FirebaseFirestoreSwift'
 
 end

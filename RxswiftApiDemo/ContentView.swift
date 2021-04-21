@@ -14,43 +14,60 @@ struct ContentView: View {
    
     var body: some View {
         
-        NavigationView{
+        
+        
+        TabView {
+           
             
-            List(apiObserved.jokes){i in
+            
+            
+            NavigationView{
                 
-                HStack{
-                    
-                    Text(i.joke)
-                    
-                    
-                }.navigationBarItems(trailing: RxButton(getNewJoke, animationValue: $animationAmount).onAppear {
-                    
-                    self.animationAmount = 2
-                    
-                }
-                
-                
-                
+                List(apiObserved.jokes){i in
+                HStack{Text(i.joke)}.navigationBarItems(trailing: RxButton(getNewJoke, animationValue: $animationAmount).onAppear {
+                   self.animationAmount = 2
+                    }
                 )
-                .navigationBarTitle("SwiftUI API Calling")
+                    .navigationBarTitle("SwiftUI API Calling")
                 
-                
-                
-                
-                
+                }
+             
             }
+            .tabItem { Label("API", systemImage: "star") }
             
             
+            
+            let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+
+            
+         CardViewNew().environment(\.managedObjectContext, context)
+            
+                .tabItem { Label("API", systemImage: "scribble") }
+            
+            BookListView()
+                .tabItem { Label("Book", systemImage:"book") }
+            
+            LoginView()
+            .tabItem { Label("Menu",systemImage: "plus") }
             
             
             
             
         }
         
-        
-        
-        
-        
+//        NavigationView{
+//
+//            List(apiObserved.jokes){i in
+//            HStack{Text(i.joke)}.navigationBarItems(trailing: RxButton(getNewJoke, animationValue: $animationAmount).onAppear {
+//               self.animationAmount = 2
+//                }
+//            )
+//                .navigationBarTitle("SwiftUI API Calling")
+//
+//            }
+//
+//        }
+     
     }
     
     func getNewJoke() {
