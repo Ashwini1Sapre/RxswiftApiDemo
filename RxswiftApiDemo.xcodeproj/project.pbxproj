@@ -24,6 +24,8 @@
 		6050EE99263035120003FE27 /* BookEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050EE98263035120003FE27 /* BookEditView.swift */; };
 		6050EE9C2630352A0003FE27 /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050EE9B2630352A0003FE27 /* BookDetailView.swift */; };
 		6050EE9F2630353C0003FE27 /* BookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050EE9E2630353C0003FE27 /* BookListView.swift */; };
+		6050EEB02630402F0003FE27 /* RxswiftApiDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050EEAF2630402F0003FE27 /* RxswiftApiDemoTests.swift */; };
+		6050EEBA2630523C0003FE27 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6050EEB92630523C0003FE27 /* GoogleService-Info.plist */; };
 		60783E05262EB01100204C88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60783E04262EB01100204C88 /* AppDelegate.swift */; };
 		60783E07262EB01100204C88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60783E06262EB01100204C88 /* SceneDelegate.swift */; };
 		60783E09262EB01100204C88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60783E08262EB01100204C88 /* ContentView.swift */; };
@@ -44,6 +46,16 @@
 		60783F20262F0F7300204C88 /* ActivityLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60783F1F262F0F7300204C88 /* ActivityLoaderView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		6050EEB22630402F0003FE27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60783DF9262EB01100204C88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60783E00262EB01100204C88;
+			remoteInfo = RxswiftApiDemo;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		40D4C739D8DB227346077A8D /* Pods-RxswiftApiDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxswiftApiDemo.debug.xcconfig"; path = "Target Support Files/Pods-RxswiftApiDemo/Pods-RxswiftApiDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		58C6F77F65FF60B040245346 /* Pods-RxswiftApiDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxswiftApiDemo.release.xcconfig"; path = "Target Support Files/Pods-RxswiftApiDemo/Pods-RxswiftApiDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -60,6 +72,10 @@
 		6050EE98263035120003FE27 /* BookEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookEditView.swift; sourceTree = "<group>"; };
 		6050EE9B2630352A0003FE27 /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
 		6050EE9E2630353C0003FE27 /* BookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListView.swift; sourceTree = "<group>"; };
+		6050EEAD2630402F0003FE27 /* RxswiftApiDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxswiftApiDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6050EEAF2630402F0003FE27 /* RxswiftApiDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxswiftApiDemoTests.swift; sourceTree = "<group>"; };
+		6050EEB12630402F0003FE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6050EEB92630523C0003FE27 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		60783E01262EB01100204C88 /* RxswiftApiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxswiftApiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60783E04262EB01100204C88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60783E06262EB01100204C88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +100,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6050EEAA2630402F0003FE27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		60783DFE262EB01100204C88 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -146,6 +169,7 @@
 		6050EE6A263024F20003FE27 /* FirebaseWithMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				6050EEB92630523C0003FE27 /* GoogleService-Info.plist */,
 				6050EE90263027A80003FE27 /* View */,
 				6050EE8F263027940003FE27 /* ViewModel */,
 				6050EE89263025D70003FE27 /* Model */,
@@ -180,10 +204,41 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		6050EEA226303F790003FE27 /* CommonFile */ = {
+			isa = PBXGroup;
+			children = (
+				60783E04262EB01100204C88 /* AppDelegate.swift */,
+				60783E06262EB01100204C88 /* SceneDelegate.swift */,
+				60783E08262EB01100204C88 /* ContentView.swift */,
+			);
+			path = CommonFile;
+			sourceTree = "<group>";
+		};
+		6050EEA326303FA70003FE27 /* RxDEmo */ = {
+			isa = PBXGroup;
+			children = (
+				60783E21262EB08300204C88 /* RxLoaderView.swift */,
+				60783E25262EB45D00204C88 /* RxButton.swift */,
+				60783E28262EB64900204C88 /* RXAlamafireApi.swift */,
+				60783E33262ED02F00204C88 /* SwiftUIApiCallingView.swift */,
+			);
+			path = RxDEmo;
+			sourceTree = "<group>";
+		};
+		6050EEAE2630402F0003FE27 /* RxswiftApiDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6050EEAF2630402F0003FE27 /* RxswiftApiDemoTests.swift */,
+				6050EEB12630402F0003FE27 /* Info.plist */,
+			);
+			path = RxswiftApiDemoTests;
+			sourceTree = "<group>";
+		};
 		60783DF8262EB01100204C88 = {
 			isa = PBXGroup;
 			children = (
 				60783E03262EB01100204C88 /* RxswiftApiDemo */,
+				6050EEAE2630402F0003FE27 /* RxswiftApiDemoTests */,
 				60783E02262EB01100204C88 /* Products */,
 				EFC9F269834C9D31782C4561 /* Pods */,
 				E2B9019E580893B03A8A921E /* Frameworks */,
@@ -194,6 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				60783E01262EB01100204C88 /* RxswiftApiDemo.app */,
+				6050EEAD2630402F0003FE27 /* RxswiftApiDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,15 +257,10 @@
 		60783E03262EB01100204C88 /* RxswiftApiDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6050EEA326303FA70003FE27 /* RxDEmo */,
+				6050EEA226303F790003FE27 /* CommonFile */,
 				6050EE6A263024F20003FE27 /* FirebaseWithMVVM */,
 				6050ED5A262FF7E40003FE27 /* AlmaFireDemo */,
-				60783E04262EB01100204C88 /* AppDelegate.swift */,
-				60783E06262EB01100204C88 /* SceneDelegate.swift */,
-				60783E08262EB01100204C88 /* ContentView.swift */,
-				60783E21262EB08300204C88 /* RxLoaderView.swift */,
-				60783E25262EB45D00204C88 /* RxButton.swift */,
-				60783E28262EB64900204C88 /* RXAlamafireApi.swift */,
-				60783E33262ED02F00204C88 /* SwiftUIApiCallingView.swift */,
 				60783E39262EE1D500204C88 /* RandomDogsSelection */,
 				60783E0A262EB01200204C88 /* Assets.xcassets */,
 				60783E0F262EB01200204C88 /* LaunchScreen.storyboard */,
@@ -295,6 +346,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6050EEAC2630402F0003FE27 /* RxswiftApiDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6050EEB42630402F0003FE27 /* Build configuration list for PBXNativeTarget "RxswiftApiDemoTests" */;
+			buildPhases = (
+				6050EEA92630402F0003FE27 /* Sources */,
+				6050EEAA2630402F0003FE27 /* Frameworks */,
+				6050EEAB2630402F0003FE27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6050EEB32630402F0003FE27 /* PBXTargetDependency */,
+			);
+			name = RxswiftApiDemoTests;
+			productName = RxswiftApiDemoTests;
+			productReference = 6050EEAD2630402F0003FE27 /* RxswiftApiDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		60783E00262EB01100204C88 /* RxswiftApiDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60783E15262EB01200204C88 /* Build configuration list for PBXNativeTarget "RxswiftApiDemo" */;
@@ -328,6 +397,10 @@
 				LastSwiftUpdateCheck = 1210;
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
+					6050EEAC2630402F0003FE27 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 60783E00262EB01100204C88;
+					};
 					60783E00262EB01100204C88 = {
 						CreatedOnToolsVersion = 12.1;
 					};
@@ -352,11 +425,19 @@
 			projectRoot = "";
 			targets = (
 				60783E00262EB01100204C88 /* RxswiftApiDemo */,
+				6050EEAC2630402F0003FE27 /* RxswiftApiDemoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6050EEAB2630402F0003FE27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		60783DFF262EB01100204C88 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -364,6 +445,7 @@
 				60783E11262EB01200204C88 /* LaunchScreen.storyboard in Resources */,
 				60783E0E262EB01200204C88 /* Preview Assets.xcassets in Resources */,
 				60783E0B262EB01200204C88 /* Assets.xcassets in Resources */,
+				6050EEBA2630523C0003FE27 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +494,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6050EEA92630402F0003FE27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6050EEB02630402F0003FE27 /* RxswiftApiDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		60783DFD262EB01100204C88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -449,6 +539,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		6050EEB32630402F0003FE27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60783E00262EB01100204C88 /* RxswiftApiDemo */;
+			targetProxy = 6050EEB22630402F0003FE27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		60783E0F262EB01200204C88 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -461,6 +559,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		6050EEB52630402F0003FE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DD73F8592Z;
+				INFOPLIST_FILE = RxswiftApiDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = knoxpo.RxswiftApiDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxswiftApiDemo.app/RxswiftApiDemo";
+			};
+			name = Debug;
+		};
+		6050EEB62630402F0003FE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DD73F8592Z;
+				INFOPLIST_FILE = RxswiftApiDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = knoxpo.RxswiftApiDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxswiftApiDemo.app/RxswiftApiDemo";
+			};
+			name = Release;
+		};
 		60783E13262EB01200204C88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -624,6 +762,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6050EEB42630402F0003FE27 /* Build configuration list for PBXNativeTarget "RxswiftApiDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6050EEB52630402F0003FE27 /* Debug */,
+				6050EEB62630402F0003FE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		60783DFC262EB01100204C88 /* Build configuration list for PBXProject "RxswiftApiDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

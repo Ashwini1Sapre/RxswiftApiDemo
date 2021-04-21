@@ -35,7 +35,7 @@ class BooksViewModel: ObservableObject {
         
         if listnerRegistration == nil {
             
-            listnerRegistration = db.collection("book").addSnapshotListener {
+            listnerRegistration = db.collection("books").addSnapshotListener {
                 (querySnapshot, error) in
                 
                 guard let document = querySnapshot?.documents else {
@@ -67,7 +67,7 @@ class BooksViewModel: ObservableObject {
             
             if let documentId = book.id {
                 
-                db.collection("book").document(documentId).delete { error in
+                db.collection("books").document(documentId).delete { error in
                     
                     print("error is \(String(describing: error))")
                     

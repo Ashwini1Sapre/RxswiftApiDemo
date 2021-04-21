@@ -97,6 +97,16 @@ class BookViewModel: ObservableObject {
     }
     
     
+    func handelDoneTab() {
+        
+        self.updateORAddBook()
+    }
+    
+    
+    func handelDeleteTab() {
+        
+        self.deteteBooks()
+    }
     
     
 }
