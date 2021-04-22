@@ -8,6 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		3DE15777B48A49A659986275 /* Pods_RxswiftApiDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61A99CF99208707D964F73E1 /* Pods_RxswiftApiDemo.framework */; };
+		6041C58C263146420000EA4B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6041C58B263146420000EA4B /* User.swift */; };
+		6041C591263146DF0000EA4B /* CustomModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6041C590263146DF0000EA4B /* CustomModifier.swift */; };
+		6041C59526314BBB0000EA4B /* CustomTextFeild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6041C59426314BBB0000EA4B /* CustomTextFeild.swift */; };
+		6041C59A2631507C0000EA4B /* UIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6041C5992631507C0000EA4B /* UIConfiguration.swift */; };
+		6041C5A0263153880000EA4B /* UIColorEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6041C59F263153880000EA4B /* UIColorEx.swift */; };
+		6041C5A4263156F70000EA4B /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6041C5A3263156F70000EA4B /* AppState.swift */; };
+		6041C5AC263158310000EA4B /* AuthApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6041C5AB263158310000EA4B /* AuthApi.swift */; };
+		6041C5B226315A230000EA4B /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6041C5B126315A230000EA4B /* AuthService.swift */; };
+		6041C5B62631602C0000EA4B /* SatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6041C5B52631602C0000EA4B /* SatusViewModel.swift */; };
+		6041C5BA263167D40000EA4B /* SignUpviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6041C5B9263167D40000EA4B /* SignUpviewModel.swift */; };
+		6041C5BE263167ED0000EA4B /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6041C5BD263167ED0000EA4B /* SignInViewModel.swift */; };
+		6041C5C226316F720000EA4B /* SlpashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6041C5C126316F720000EA4B /* SlpashView.swift */; };
+		6041C5C6263170350000EA4B /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6041C5C5263170350000EA4B /* WelcomeView.swift */; };
+		6041C6D22631767F0000EA4B /* SignUPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6041C6D12631767F0000EA4B /* SignUPView.swift */; };
+		6041C6D8263180750000EA4B /* DrawerContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6041C6D7263180750000EA4B /* DrawerContent.swift */; };
+		6041C6DC263182000000EA4B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6041C6DB263182000000EA4B /* HomeView.swift */; };
+		6041C6E0263184DD0000EA4B /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6041C6DF263184DD0000EA4B /* SignInView.swift */; };
 		6050ED07262FED450003FE27 /* TextfeildViewNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050ED06262FED450003FE27 /* TextfeildViewNew.swift */; };
 		6050ED54262FF6D30003FE27 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 6050ED53262FF6D30003FE27 /* SwiftyJSON */; };
 		6050ED58262FF6F90003FE27 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 6050ED57262FF6F90003FE27 /* SDWebImageSwiftUI */; };
@@ -59,6 +76,23 @@
 /* Begin PBXFileReference section */
 		40D4C739D8DB227346077A8D /* Pods-RxswiftApiDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxswiftApiDemo.debug.xcconfig"; path = "Target Support Files/Pods-RxswiftApiDemo/Pods-RxswiftApiDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		58C6F77F65FF60B040245346 /* Pods-RxswiftApiDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxswiftApiDemo.release.xcconfig"; path = "Target Support Files/Pods-RxswiftApiDemo/Pods-RxswiftApiDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6041C58B263146420000EA4B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6041C590263146DF0000EA4B /* CustomModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifier.swift; sourceTree = "<group>"; };
+		6041C59426314BBB0000EA4B /* CustomTextFeild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFeild.swift; sourceTree = "<group>"; };
+		6041C5992631507C0000EA4B /* UIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConfiguration.swift; sourceTree = "<group>"; };
+		6041C59F263153880000EA4B /* UIColorEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorEx.swift; sourceTree = "<group>"; };
+		6041C5A3263156F70000EA4B /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		6041C5AB263158310000EA4B /* AuthApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthApi.swift; sourceTree = "<group>"; };
+		6041C5B126315A230000EA4B /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		6041C5B52631602C0000EA4B /* SatusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatusViewModel.swift; sourceTree = "<group>"; };
+		6041C5B9263167D40000EA4B /* SignUpviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpviewModel.swift; sourceTree = "<group>"; };
+		6041C5BD263167ED0000EA4B /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		6041C5C126316F720000EA4B /* SlpashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlpashView.swift; sourceTree = "<group>"; };
+		6041C5C5263170350000EA4B /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		6041C6D12631767F0000EA4B /* SignUPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUPView.swift; sourceTree = "<group>"; };
+		6041C6D7263180750000EA4B /* DrawerContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerContent.swift; sourceTree = "<group>"; };
+		6041C6DB263182000000EA4B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6041C6DF263184DD0000EA4B /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		6050ED06262FED450003FE27 /* TextfeildViewNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfeildViewNew.swift; sourceTree = "<group>"; };
 		6050ED5B262FF8130003FE27 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 		6050ED60262FF8B90003FE27 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -121,6 +155,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6041C563263145960000EA4B /* FirebaseDemoWithDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				6041C5AA263158130000EA4B /* Service */,
+				6041C5A82631579D0000EA4B /* ViewModel */,
+				6041C5A7263157940000EA4B /* View */,
+				6041C5982631505F0000EA4B /* Configuration */,
+				6041C58F263146C00000EA4B /* Component */,
+				6041C5862631462F0000EA4B /* Model */,
+			);
+			path = FirebaseDemoWithDrawer;
+			sourceTree = "<group>";
+		};
+		6041C5862631462F0000EA4B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6041C58B263146420000EA4B /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6041C58F263146C00000EA4B /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				6041C590263146DF0000EA4B /* CustomModifier.swift */,
+				6041C59426314BBB0000EA4B /* CustomTextFeild.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		6041C5982631505F0000EA4B /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				6041C5992631507C0000EA4B /* UIConfiguration.swift */,
+				6041C59F263153880000EA4B /* UIColorEx.swift */,
+				6041C5A3263156F70000EA4B /* AppState.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		6041C5A7263157940000EA4B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6041C5C126316F720000EA4B /* SlpashView.swift */,
+				6041C5C5263170350000EA4B /* WelcomeView.swift */,
+				6041C6D12631767F0000EA4B /* SignUPView.swift */,
+				6041C6D7263180750000EA4B /* DrawerContent.swift */,
+				6041C6DB263182000000EA4B /* HomeView.swift */,
+				6041C6DF263184DD0000EA4B /* SignInView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6041C5A82631579D0000EA4B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6041C5B52631602C0000EA4B /* SatusViewModel.swift */,
+				6041C5B9263167D40000EA4B /* SignUpviewModel.swift */,
+				6041C5BD263167ED0000EA4B /* SignInViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6041C5AA263158130000EA4B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6041C5AB263158310000EA4B /* AuthApi.swift */,
+				6041C5B126315A230000EA4B /* AuthService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		6050ED5A262FF7E40003FE27 /* AlmaFireDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -257,6 +363,7 @@
 		60783E03262EB01100204C88 /* RxswiftApiDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6041C563263145960000EA4B /* FirebaseDemoWithDrawer */,
 				6050EEA326303FA70003FE27 /* RxDEmo */,
 				6050EEA226303F790003FE27 /* CommonFile */,
 				6050EE6A263024F20003FE27 /* FirebaseWithMVVM */,
@@ -506,27 +613,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6041C5AC263158310000EA4B /* AuthApi.swift in Sources */,
+				6041C59526314BBB0000EA4B /* CustomTextFeild.swift in Sources */,
 				6050ED70263004A30003FE27 /* CardViewModel.swift in Sources */,
+				6041C5B226315A230000EA4B /* AuthService.swift in Sources */,
 				6050ED61262FF8B90003FE27 /* NetworkManager.swift in Sources */,
 				6050EE99263035120003FE27 /* BookEditView.swift in Sources */,
 				60783E41262EE3FF00204C88 /* LoginHandler.swift in Sources */,
 				60783E58262F01E700204C88 /* DogView.swift in Sources */,
+				6041C5BA263167D40000EA4B /* SignUpviewModel.swift in Sources */,
+				6041C59A2631507C0000EA4B /* UIConfiguration.swift in Sources */,
 				60783F20262F0F7300204C88 /* ActivityLoaderView.swift in Sources */,
 				60783E05262EB01100204C88 /* AppDelegate.swift in Sources */,
 				60783E49262EE8DB00204C88 /* LoginViewModel.swift in Sources */,
+				6041C58C263146420000EA4B /* User.swift in Sources */,
 				6050ED5C262FF8130003FE27 /* CardModel.swift in Sources */,
 				6050EE8C263025F30003FE27 /* Book.swift in Sources */,
+				6041C591263146DF0000EA4B /* CustomModifier.swift in Sources */,
+				6041C5C226316F720000EA4B /* SlpashView.swift in Sources */,
+				6041C6DC263182000000EA4B /* HomeView.swift in Sources */,
+				6041C5BE263167ED0000EA4B /* SignInViewModel.swift in Sources */,
 				6050ED682630029D0003FE27 /* CardView.swift in Sources */,
 				60783E26262EB45D00204C88 /* RxButton.swift in Sources */,
 				60783E34262ED02F00204C88 /* SwiftUIApiCallingView.swift in Sources */,
+				6041C6D8263180750000EA4B /* DrawerContent.swift in Sources */,
 				6050EE4726300DCD0003FE27 /* RxswiftApiDemoModel.xcdatamodeld in Sources */,
 				60783E22262EB08300204C88 /* RxLoaderView.swift in Sources */,
 				6050ED65262FFA490003FE27 /* NetworkService.swift in Sources */,
 				60783E29262EB64900204C88 /* RXAlamafireApi.swift in Sources */,
+				6041C5A0263153880000EA4B /* UIColorEx.swift in Sources */,
 				60783F1A262F0F5F00204C88 /* LoginView.swift in Sources */,
+				6041C6D22631767F0000EA4B /* SignUPView.swift in Sources */,
+				6041C5B62631602C0000EA4B /* SatusViewModel.swift in Sources */,
+				6041C5A4263156F70000EA4B /* AppState.swift in Sources */,
 				60783E07262EB01100204C88 /* SceneDelegate.swift in Sources */,
+				6041C5C6263170350000EA4B /* WelcomeView.swift in Sources */,
 				6050EE9F2630353C0003FE27 /* BookListView.swift in Sources */,
 				6050EE9C2630352A0003FE27 /* BookDetailView.swift in Sources */,
+				6041C6E0263184DD0000EA4B /* SignInView.swift in Sources */,
 				6050ED07262FED450003FE27 /* TextfeildViewNew.swift in Sources */,
 				6050EE92263027C70003FE27 /* BookViewModel.swift in Sources */,
 				6050EE95263027F00003FE27 /* BooksViewModel.swift in Sources */,

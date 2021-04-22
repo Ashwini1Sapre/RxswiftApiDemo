@@ -50,6 +50,14 @@ struct ContentView: View {
             LoginView()
             .tabItem { Label("Menu",systemImage: "plus") }
             
+            SlpashView(state: AppState())
+                .tabItem {
+                    
+                    
+                    Label("Menu", systemImage: "slider.horizontal.3")
+                }
+            
+            
             
             
             

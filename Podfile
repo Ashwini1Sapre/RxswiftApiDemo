@@ -19,4 +19,7 @@ pod 'Firebase/Database'
 pod 'Firebase/Storage'
 pod 'FirebaseFirestoreSwift'
 
+	pod 'FBSDKCoreKit'
+ 	pod 'FBSDKLoginKit'
+
 end
