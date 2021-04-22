@@ -54,7 +54,7 @@ struct ContentView: View {
                 .tabItem {
                     
                     
-                    Label("Menu", systemImage: "slider.horizontal.3")
+                    Label("Auth", systemImage: "slider.horizontal.3")
                 }
             
             

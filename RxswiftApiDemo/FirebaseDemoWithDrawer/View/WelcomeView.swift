@@ -30,7 +30,7 @@ struct WelcomeView: View {
                     
             Image(systemName: "star")
                 .resizable()
-                .frame(width: 200, height: 200)
+                .frame(width:100, height: 100)
                 .padding(.top,20)
                 .colorMultiply(Color(UIConfiguration.tintbackcolor))
         
@@ -52,10 +52,10 @@ struct WelcomeView: View {
                         }){
                             
                             Text("LOGIN")
-                                .modifier(ButtonModifier(font: UIConfiguration.subtitleFont, color: .white, textColor: .purple, width: 275, height: 45))
+                                .modifier(ButtonModifier(font: UIConfiguration.subtitleFont, color: .white, textColor: .purple, width: 250, height: 45))
                         
                         }
-                        
+                        .background(Color.black)
                        
                         Button(action: {
                             self.index = 2
@@ -67,7 +67,7 @@ struct WelcomeView: View {
                             
                             
                         }
-                        
+                        .background(Color.black)
                         
                         
                     }
