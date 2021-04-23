@@ -29,10 +29,7 @@ class AuthService: AuthApi {
                 promise(.success(user))
                 
             }
-            
-            
-            
-            
+           
         }
     }
     
@@ -50,15 +47,10 @@ class AuthService: AuthApi {
                 let user = User(id: id, email: email)
                 promise(.success(user))
                 
-                
-                
-                
+            
             }
             
-            
-            
-            
-            
+         
             
         }
     }
@@ -94,40 +86,18 @@ class AuthService: AuthApi {
                  //   User(id: id, email: email)
                     promise(.success(user))
                     
-                    
-                    
-                    
+             
                     
                 })
                 
                 
-                
-                
-                
             }
             
-            
-            
-            
-            
-            
+        
         }
         
-        
-        
-        
-        
-        
+     
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+  
 }

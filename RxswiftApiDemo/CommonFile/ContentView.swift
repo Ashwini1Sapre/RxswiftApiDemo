@@ -47,7 +47,10 @@ struct ContentView: View {
             BookListView()
                 .tabItem { Label("Book", systemImage:"book") }
             
-            LoginView()
+                LoginView()
+           //EyeBlinkView()
+            //    UserView()
+                  //  IMGStorageClass()
             .tabItem { Label("Menu",systemImage: "plus") }
             
             SlpashView(state: AppState())

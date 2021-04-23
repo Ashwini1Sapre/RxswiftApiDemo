@@ -42,11 +42,11 @@ struct SignInView: View {
                 
                 VStack(alignment: .center)
                 {
-                    CustomButton(title: "Login", backgroundColor: UIColor.red, action: self.viewModel.login)
+                    CustomButton(title: "Login", backgroundColor: UIConfiguration.tintbackcolor, action: self.viewModel.login)
                     
                     Text("OR")
                     
-                    CustomButton(title: "FBLogin", backgroundColor: UIColor.systemPink, action: self.viewModel.FBLogin)
+                    CustomButton(title: "FBLogin", backgroundColor: UIConfiguration.tintbackcolor, action: self.viewModel.FBLogin)
                     
                     
                     

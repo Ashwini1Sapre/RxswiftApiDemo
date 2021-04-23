@@ -41,9 +41,7 @@ struct WelcomeView: View {
                 )
                 .modifier(TextModifier(font: UIConfiguration.subtitleFont , color: UIConfiguration.tintbackcolor))
         
-               // .padding(.horizontal, 23)
-                    
-                    VStack{
+                   VStack{
                         Button(action: {
                             self.index = 1
                             self.pushActive = true
@@ -52,7 +50,7 @@ struct WelcomeView: View {
                         }){
                             
                             Text("LOGIN")
-                                .modifier(ButtonModifier(font: UIConfiguration.subtitleFont, color: .white, textColor: .purple, width: 250, height: 45))
+                                .modifier(ButtonModifier(font: UIConfiguration.subtitleFont, color: UIConfiguration.tintbackcolor, textColor: .purple, width: 250, height: 45))
                         
                         }
                         .background(Color.black)
@@ -63,8 +61,7 @@ struct WelcomeView: View {
                             
                         }){
                             Text("SIGNUP")
-                                .modifier(ButtonModifier(font: UIConfiguration.subtitleFont, color: UIConfiguration.backgroundColor, textColor: .purple, width: 250, height: 45))
-                            
+                                .modifier(ButtonModifier(font: UIConfiguration.subtitleFont, color: UIConfiguration.tintbackcolor, textColor: .purple, width: 250, height: 45))
                             
                         }
                         .background(Color.black)
