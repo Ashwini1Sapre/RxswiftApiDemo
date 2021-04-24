@@ -18,9 +18,6 @@ struct ContentView: View {
         
         TabView {
            
-            
-            
-            
             NavigationView{
                 
                 List(apiObserved.jokes){i in
@@ -47,8 +44,10 @@ struct ContentView: View {
             BookListView()
                 .tabItem { Label("Book", systemImage:"book") }
             
-                LoginView()
-           //EyeBlinkView()
+              //  LoginView()
+         //  EyeBlinkView()
+          //  CustomScrollView()
+                TestWrappedLayout()
             //    UserView()
                   //  IMGStorageClass()
             .tabItem { Label("Menu",systemImage: "plus") }

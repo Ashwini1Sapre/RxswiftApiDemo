@@ -10,8 +10,10 @@ import SwiftUI
 struct EyeBlinkView: View {
     
     enum EyeState: String {
-        case open = "1"
-        case close = "4"
+        
+      //  UIImage(named: "eyes-open"),UIImage(named: "eyes-closed")
+        case open =  "images-3"
+        case close =  "images-2"
     }
     
     @State private var eyeSatte = EyeState.open
@@ -19,7 +21,9 @@ struct EyeBlinkView: View {
     
     
     var body: some View {
+        
         Image(eyeSatte.rawValue).resizable().scaledToFit()
+         //   .frame(width: 100, height: 100, alignment: .center)
         .onAppear() { self.blink() }
     }
     
@@ -28,16 +32,14 @@ struct EyeBlinkView: View {
         self.eyeSatte = .close
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.9) {
             self.eyeSatte = .open
-            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now().advanced(by: .seconds(Int.random(in: 1..<9)))){
-                
+            DispatchQueue.main.asyncAfter(deadline:
+            DispatchTime.now().advanced(by: .seconds(Int.random(in: 1..<9)))){
                 self.blink()
             }
             
         }
-        
-        
+       
     }
-    
     
 }
 
