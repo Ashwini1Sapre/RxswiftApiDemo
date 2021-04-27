@@ -77,6 +77,15 @@
 		60783F19262F0F5F00204C88 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60783F17262F0F5F00204C88 /* LoadingView.swift */; };
 		60783F1A262F0F5F00204C88 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60783F18262F0F5F00204C88 /* LoginView.swift */; };
 		60783F20262F0F7300204C88 /* ActivityLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60783F1F262F0F7300204C88 /* ActivityLoaderView.swift */; };
+		608586132637DE7E00F2A53A /* MapKitdemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608586122637DE7E00F2A53A /* MapKitdemo.swift */; };
+		608586172637DEE500F2A53A /* MapPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608586162637DEE500F2A53A /* MapPin.swift */; };
+		608586212637E1DE00F2A53A /* MapViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608586202637E1DE00F2A53A /* MapViewDemo.swift */; };
+		608586252637F91700F2A53A /* MapviewTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608586242637F91700F2A53A /* MapviewTapView.swift */; };
+		60858629263807F900F2A53A /* MapNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60858628263807F900F2A53A /* MapNewView.swift */; };
+		6085862D2638142A00F2A53A /* MapShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6085862C2638142A00F2A53A /* MapShowView.swift */; };
+		608586312638364600F2A53A /* MKAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608586302638364600F2A53A /* MKAnnotation.swift */; };
+		608586352638378000F2A53A /* EditMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608586342638378000F2A53A /* EditMapView.swift */; };
+		6085863926383E3800F2A53A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6085863826383E3800F2A53A /* Result.swift */; };
 		60ED94B9263298EA0089F4D3 /* User1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ED94B8263298EA0089F4D3 /* User1.swift */; };
 		60ED94BD263299460089F4D3 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ED94BC263299460089F4D3 /* UserViewModel.swift */; };
 		60ED94C126329C870089F4D3 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ED94C026329C870089F4D3 /* UserView.swift */; };
@@ -174,6 +183,15 @@
 		60783F17262F0F5F00204C88 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		60783F18262F0F5F00204C88 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		60783F1F262F0F7300204C88 /* ActivityLoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityLoaderView.swift; sourceTree = "<group>"; };
+		608586122637DE7E00F2A53A /* MapKitdemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitdemo.swift; sourceTree = "<group>"; };
+		608586162637DEE500F2A53A /* MapPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPin.swift; sourceTree = "<group>"; };
+		608586202637E1DE00F2A53A /* MapViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewDemo.swift; sourceTree = "<group>"; };
+		608586242637F91700F2A53A /* MapviewTapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapviewTapView.swift; sourceTree = "<group>"; };
+		60858628263807F900F2A53A /* MapNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapNewView.swift; sourceTree = "<group>"; };
+		6085862C2638142A00F2A53A /* MapShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapShowView.swift; sourceTree = "<group>"; };
+		608586302638364600F2A53A /* MKAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKAnnotation.swift; sourceTree = "<group>"; };
+		608586342638378000F2A53A /* EditMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMapView.swift; sourceTree = "<group>"; };
+		6085863826383E3800F2A53A /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		60ED94B8263298EA0089F4D3 /* User1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User1.swift; sourceTree = "<group>"; };
 		60ED94BC263299460089F4D3 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		60ED94C026329C870089F4D3 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
@@ -279,6 +297,15 @@
 				606565262636C3C2007E3DBE /* TestAnimationDeactivate.swift */,
 				6065652A2636C843007E3DBE /* CustomPickerview.swift */,
 				6065652E2636D90B007E3DBE /* WebWithScrollView.swift */,
+				608586122637DE7E00F2A53A /* MapKitdemo.swift */,
+				608586162637DEE500F2A53A /* MapPin.swift */,
+				608586202637E1DE00F2A53A /* MapViewDemo.swift */,
+				608586242637F91700F2A53A /* MapviewTapView.swift */,
+				60858628263807F900F2A53A /* MapNewView.swift */,
+				6085862C2638142A00F2A53A /* MapShowView.swift */,
+				608586302638364600F2A53A /* MKAnnotation.swift */,
+				608586342638378000F2A53A /* EditMapView.swift */,
+				6085863826383E3800F2A53A /* Result.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -740,9 +767,12 @@
 				606565182636A918007E3DBE /* DragdropReOrtextview.swift in Sources */,
 				606565142636A358007E3DBE /* OwnWindowView.swift in Sources */,
 				60ED94B9263298EA0089F4D3 /* User1.swift in Sources */,
+				608586132637DE7E00F2A53A /* MapKitdemo.swift in Sources */,
 				6041C5AC263158310000EA4B /* AuthApi.swift in Sources */,
+				6085863926383E3800F2A53A /* Result.swift in Sources */,
 				6041C59526314BBB0000EA4B /* CustomTextFeild.swift in Sources */,
 				6050ED70263004A30003FE27 /* CardViewModel.swift in Sources */,
+				608586172637DEE500F2A53A /* MapPin.swift in Sources */,
 				6041C5B226315A230000EA4B /* AuthService.swift in Sources */,
 				6050ED61262FF8B90003FE27 /* NetworkManager.swift in Sources */,
 				6050EE99263035120003FE27 /* BookEditView.swift in Sources */,
@@ -792,15 +822,21 @@
 				6050EE9C2630352A0003FE27 /* BookDetailView.swift in Sources */,
 				6041C6E0263184DD0000EA4B /* SignInView.swift in Sources */,
 				6015019B263406E000DAC3C4 /* TestWrappedLayout.swift in Sources */,
+				608586312638364600F2A53A /* MKAnnotation.swift in Sources */,
 				6050ED07262FED450003FE27 /* TextfeildViewNew.swift in Sources */,
 				6065652B2636C843007E3DBE /* CustomPickerview.swift in Sources */,
 				6050EE92263027C70003FE27 /* BookViewModel.swift in Sources */,
 				6050EE95263027F00003FE27 /* BooksViewModel.swift in Sources */,
 				60783E45262EE43A00204C88 /* APIHandler.swift in Sources */,
 				60783E09262EB01100204C88 /* ContentView.swift in Sources */,
+				608586252637F91700F2A53A /* MapviewTapView.swift in Sources */,
 				60783F19262F0F5F00204C88 /* LoadingView.swift in Sources */,
+				608586352638378000F2A53A /* EditMapView.swift in Sources */,
 				6065651D2636B8FE007E3DBE /* ReapetingAnimationView.swift in Sources */,
 				60ED956E2632F8350089F4D3 /* EyeBlinkView.swift in Sources */,
+				608586212637E1DE00F2A53A /* MapViewDemo.swift in Sources */,
+				60858629263807F900F2A53A /* MapNewView.swift in Sources */,
+				6085862D2638142A00F2A53A /* MapShowView.swift in Sources */,
 				60783E3C262EE26300204C88 /* WoofResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

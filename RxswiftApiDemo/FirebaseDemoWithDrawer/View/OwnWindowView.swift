@@ -7,14 +7,56 @@
 
 import SwiftUI
 
-struct OwnWindowView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+struct OwnWindowView: EnvironmentKey {
+   
+    #if canImport(UIKit)
+    typealias WrappedValue = UIWindow
+    #elseif canImport(AppKit)
+    typealias WrappedValue = NSWindow
+    #else
+    #error("Unsupported Platfrom")
+    #endif
+    
+    typealias Value = () -> WrappedValue?
+    
+    static let defaultValue: Self.Value = { nil }
+    
+    
+    
 }
 
-struct OwnWindowView_Previews: PreviewProvider {
-    static var previews: some View {
-        OwnWindowView()
+
+extension EnvironmentValues {
+    var hostingWindow: OwnWindowView.Value {
+        get {
+            return self [OwnWindowView.self]
+        }
+        
+        set {
+            self[OwnWindowView.self] = newValue
+            
+        }
+        
     }
+   
 }
+
+struct OwnWindowViewNew: View {
+    @Environment(\.hostingWindow) var hostingWindow
+    
+    var body: some View {
+        VStack {
+            Button("Action") {
+                
+                print("Welcome")
+                
+                
+            }
+            
+        }
+        
+    }
+   
+}
+
+

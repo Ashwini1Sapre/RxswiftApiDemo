@@ -8,10 +8,48 @@
 import SwiftUI
 
 struct TestAnimationDeactivate: View {
+    @State var active: Bool = true
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            
+            if active {
+                BlinkBadge()
+            }
+            else
+            {
+                Badge()
+                
+            }
+            
+        }
+        .frame(width: 100, height: 100)
+        .onTapGesture {
+            
+            self.active.toggle()
+        }
     }
 }
+
+
+struct Badge: View {
+    var body: some View {
+        Circle()
+    }
+    
+}
+
+struct BlinkBadge: View {
+    @State private var animating = false
+    var body: some View {
+         Circle()
+            .scaleEffect(animating ? 1.081 : 1)
+            .animation(Animation.default.repeatForever(autoreverses: true))
+            .onAppear {
+                self.animating = true
+            }
+        }
+}
+
 
 struct TestAnimationDeactivate_Previews: PreviewProvider {
     static var previews: some View {

@@ -8,8 +8,34 @@
 import SwiftUI
 
 struct ReapetingAnimationView: View {
+    @State private var isAnimating = false
+    @State private var showProgress = false
+    
+    var foreverAnimation: Animation {
+        
+        Animation.linear(duration: 2.0)
+            .repeatForever(autoreverses: false)
+        
+    }
+    
+    
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: {  self.showProgress.toggle() }, label: {
+            if showProgress {
+                
+                Image(systemName: "arrow.triangle.2.circlepath").frame(width: 35, height: 40)
+                    .rotationEffect(Angle(degrees: isAnimating ? 360 : 0.0))
+                    .animation(self.isAnimating ? foreverAnimation : .default)
+                    .onAppear { self.isAnimating  = true }
+                    .onDisappear { self.isAnimating = false }
+                
+            }else {
+                
+                Image(systemName: "arrow.triangle.2.circlepath")
+            }
+        })
+        .onAppear { self.showProgress = true }
     }
 }
 

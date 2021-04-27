@@ -29,12 +29,21 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
        //let contentView = CardViewNew().environment(\.managedObjectContext, context)
         
     let contentView =  ContentView()
-
+      //  let contentView = OwnWindowViewNew()
 
         // Use a UIHostingController as window root view controller.
+        
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
+         //   #if canImport(UIKit)
+            
             window.rootViewController = UIHostingController(rootView: contentView)
+            
+//            #elseif canImport(AppKit)
+//            window.contentView = NSHostingView(rootView: contentView)
+//            #else
+//            #error("Unsupported error")
+//            #endif
             self.window = window
             window.makeKeyAndVisible()
         }

@@ -7,10 +7,51 @@
 
 import SwiftUI
 
-struct StopAnimatingView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+
+extension Animation {
+    
+    func `repeat` (while expression: Bool, autoreversers: Bool = true) -> Animation {
+        
+        if expression {
+            return self.repeatForever(autoreverses: autoreversers)
+            
+        }
+        else
+        {
+            
+            return self
+            
+        }
+        
+        
+        
     }
+    
+    
+    
+}
+struct StopAnimatingView: View {
+    @State var active: Bool = false
+    var body: some View {
+        
+        
+       
+        
+        Circle()
+        .frame(width: 100, height: 100)
+        .scaleEffect(active ? 1.08 : 0.1)
+        .animation(Animation.default.repeat(while: active))
+            
+            .onTapGesture {
+                
+                self.active.toggle()
+            }
+            
+       
+        
+        
+    }
+    
 }
 
 struct StopAnimatingView_Previews: PreviewProvider {

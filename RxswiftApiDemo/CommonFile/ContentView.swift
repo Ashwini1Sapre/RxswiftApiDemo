@@ -47,9 +47,22 @@ struct ContentView: View {
               //  LoginView()
          //  EyeBlinkView()
           //  CustomScrollView()
-                TestWrappedLayout()
+             //   TestWrappedLayout()
             //    UserView()
                   //  IMGStorageClass()
+         //   DemoDragRelocateView()
+         //   TryingDrag()
+          //  ListScrollView()
+         //   StopAnimatingView()
+          //  ReapetingAnimationView()
+           // TestAnimationDeactivate()
+          //  CustomPickerview()
+            
+           // WebWithScrollViewdemo()
+                
+                
+         //   TestMapView()
+            MapShowView()
             .tabItem { Label("Menu",systemImage: "plus") }
             
             SlpashView(state: AppState())
