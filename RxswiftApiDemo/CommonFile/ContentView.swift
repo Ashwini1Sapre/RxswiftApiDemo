@@ -62,7 +62,9 @@ struct ContentView: View {
                 
                 
          //   TestMapView()
-            MapShowView()
+          //  MapShowView()
+            RouteMapView()
+           // LocationSearchView(locationSearch: LocationService())
             .tabItem { Label("Menu",systemImage: "plus") }
             
             SlpashView(state: AppState())

@@ -9,8 +9,6 @@ import SwiftUI
 import MapKit
 
 enum LoadingState {
-    
-    
     case loading, loaded, failed
 }
 struct EditMapView: View {
@@ -39,7 +37,7 @@ struct EditMapView: View {
                                 .font(.headline)
                            + Text(":") +
                             
-                            Text("page description")
+                                Text(page.description)
                                 .italic()
                             
                             
@@ -76,6 +74,8 @@ struct EditMapView: View {
                 self.presentationMode.wrappedValue.dismiss()
             })
             
+            .onAppear(perform: FetchNeabyPlace)
+            
             
         }
         
@@ -87,6 +87,30 @@ struct EditMapView: View {
     
     func FetchNeabyPlace() {
         
+        let urlString = "https://en.wikipedia.org/w/api.php?ggscoord=\(placemark.coordinate.latitude)%7C\(placemark.coordinate.longitude)&action=query&prop=coordinates%7Cpageimages%7Cpageterms&colimit=50&piprop=thumbnail&pithumbsize=500&pilimit=50&wbptterms=description&generator=geosearch&ggsradius=10000&ggslimit=50&format=json"
+        
+        guard let url = URL(string: urlString) else {
+            print("Bad URl: \(urlString)")
+            return
+        }
+        
+        URLSession.shared.dataTask(with: url) { data, response, error in
+            if let data = data {
+                
+                let decoder = JSONDecoder()
+                
+                if let items = try? decoder.decode(Result1.self, from: data) {
+               // self.page = Array(items.query.page.values)
+                    self.page = Array(items.query.pages.values).sorted()
+                self.loadingstate = .loaded
+                return
+                }
+                
+            }
+            
+            self.loadingstate = .failed
+            
+        }.resume()
         
         
     }
