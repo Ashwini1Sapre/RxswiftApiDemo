@@ -54,8 +54,8 @@ struct MapView: UIViewRepresentable {
     func makeUIView(context: Context) -> MKMapView {
         let mapview = MKMapView()
         mapview.delegate = context.coordinator
-        let region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 18.5204, longitude: 73.8567), span: MKCoordinateSpan(latitudeDelta: 0.5, longitudeDelta: 0.5))
-        mapview.setRegion(region, animated: true)
+//        let region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 18.5204, longitude: 73.8567), span: MKCoordinateSpan(latitudeDelta: 0.5, longitudeDelta: 0.5))
+//        mapview.setRegion(region, animated: true)
         
         let p1 = MKPlacemark(coordinate: CLLocationCoordinate2D(latitude: 21.1702, longitude: 72.8311))
         let p2 = MKPlacemark(coordinate: CLLocationCoordinate2D(latitude: 22.3039, longitude: 70.8022))
@@ -75,7 +75,7 @@ struct MapView: UIViewRepresentable {
                 mapview.addOverlay(route.polyline)
             
               mapview.setVisibleMapRect(route.polyline.boundingMapRect,
-                edgePadding: UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20),
+             
                 animated: true)
             self.directions = route.steps.map {
                 $0.instructions }.filter { !$0.isEmpty }
