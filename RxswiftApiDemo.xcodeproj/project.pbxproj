@@ -63,6 +63,15 @@
 		606E1DFD2639637700B05CCC /* RouteMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606E1DFC2639637700B05CCC /* RouteMapView.swift */; };
 		606E1E0426397B6800B05CCC /* LocationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606E1E0326397B6800B05CCC /* LocationSearchView.swift */; };
 		606E1E0A26397BA000B05CCC /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606E1E0926397BA000B05CCC /* LocationService.swift */; };
+		6070A358263BD67600D75410 /* AnimationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6070A357263BD67600D75410 /* AnimationDemo.swift */; };
+		6070A35E263BDE9F00D75410 /* AnimateBandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6070A35D263BDE9F00D75410 /* AnimateBandingView.swift */; };
+		6070A362263BE39400D75410 /* ExplicitAnimattion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6070A361263BE39400D75410 /* ExplicitAnimattion.swift */; };
+		6070A366263BE65000D75410 /* ControllingAnimationstackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6070A365263BE65000D75410 /* ControllingAnimationstackView.swift */; };
+		6070A36A263BF16100D75410 /* AnimatedGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6070A369263BF16100D75410 /* AnimatedGestureView.swift */; };
+		6070A36E263BFFDC00D75410 /* ShowHideTransView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6070A36D263BFFDB00D75410 /* ShowHideTransView.swift */; };
+		6070A372263C020E00D75410 /* CustomTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6070A371263C020E00D75410 /* CustomTransitionView.swift */; };
+		6070A377263C065100D75410 /* UserView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6070A376263C065100D75410 /* UserView1.swift */; };
+		6070A37F263C142000D75410 /* FlipCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6070A37E263C142000D75410 /* FlipCardView.swift */; };
 		60783E05262EB01100204C88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60783E04262EB01100204C88 /* AppDelegate.swift */; };
 		60783E07262EB01100204C88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60783E06262EB01100204C88 /* SceneDelegate.swift */; };
 		60783E09262EB01100204C88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60783E08262EB01100204C88 /* ContentView.swift */; };
@@ -171,6 +180,15 @@
 		606E1DFC2639637700B05CCC /* RouteMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteMapView.swift; sourceTree = "<group>"; };
 		606E1E0326397B6800B05CCC /* LocationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchView.swift; sourceTree = "<group>"; };
 		606E1E0926397BA000B05CCC /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		6070A357263BD67600D75410 /* AnimationDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDemo.swift; sourceTree = "<group>"; };
+		6070A35D263BDE9F00D75410 /* AnimateBandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateBandingView.swift; sourceTree = "<group>"; };
+		6070A361263BE39400D75410 /* ExplicitAnimattion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimattion.swift; sourceTree = "<group>"; };
+		6070A365263BE65000D75410 /* ControllingAnimationstackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllingAnimationstackView.swift; sourceTree = "<group>"; };
+		6070A369263BF16100D75410 /* AnimatedGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedGestureView.swift; sourceTree = "<group>"; };
+		6070A36D263BFFDB00D75410 /* ShowHideTransView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowHideTransView.swift; sourceTree = "<group>"; };
+		6070A371263C020E00D75410 /* CustomTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionView.swift; sourceTree = "<group>"; };
+		6070A376263C065100D75410 /* UserView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView1.swift; sourceTree = "<group>"; };
+		6070A37E263C142000D75410 /* FlipCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipCardView.swift; sourceTree = "<group>"; };
 		60783E01262EB01100204C88 /* RxswiftApiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxswiftApiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60783E04262EB01100204C88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60783E06262EB01100204C88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -281,6 +299,8 @@
 		6041C5A7263157940000EA4B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6070A375263C062600D75410 /* iExpense */,
+				6070A356263BD5F100D75410 /* Animation */,
 				606E1E0226397B4B00B05CCC /* LocationSearch */,
 				606E1DFB2639634600B05CCC /* RouteMapView */,
 				6085863C2638446400F2A53A /* CustomMapView */,
@@ -464,6 +484,29 @@
 				606E1E0926397BA000B05CCC /* LocationService.swift */,
 			);
 			path = LocationSearch;
+			sourceTree = "<group>";
+		};
+		6070A356263BD5F100D75410 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				6070A357263BD67600D75410 /* AnimationDemo.swift */,
+				6070A35D263BDE9F00D75410 /* AnimateBandingView.swift */,
+				6070A365263BE65000D75410 /* ControllingAnimationstackView.swift */,
+				6070A369263BF16100D75410 /* AnimatedGestureView.swift */,
+				6070A361263BE39400D75410 /* ExplicitAnimattion.swift */,
+				6070A36D263BFFDB00D75410 /* ShowHideTransView.swift */,
+				6070A371263C020E00D75410 /* CustomTransitionView.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		6070A375263C062600D75410 /* iExpense */ = {
+			isa = PBXGroup;
+			children = (
+				6070A376263C065100D75410 /* UserView1.swift */,
+				6070A37E263C142000D75410 /* FlipCardView.swift */,
+			);
+			path = iExpense;
 			sourceTree = "<group>";
 		};
 		60783DF8262EB01100204C88 = {
@@ -802,11 +845,14 @@
 				601501932633EA8E00DAC3C4 /* AnimatingImageDemoView.swift in Sources */,
 				606565182636A918007E3DBE /* DragdropReOrtextview.swift in Sources */,
 				606565142636A358007E3DBE /* OwnWindowView.swift in Sources */,
+				6070A36E263BFFDC00D75410 /* ShowHideTransView.swift in Sources */,
+				6070A362263BE39400D75410 /* ExplicitAnimattion.swift in Sources */,
 				60ED94B9263298EA0089F4D3 /* User1.swift in Sources */,
 				608586132637DE7E00F2A53A /* MapKitdemo.swift in Sources */,
 				6041C5AC263158310000EA4B /* AuthApi.swift in Sources */,
 				6085863926383E3800F2A53A /* Result.swift in Sources */,
 				6041C59526314BBB0000EA4B /* CustomTextFeild.swift in Sources */,
+				6070A36A263BF16100D75410 /* AnimatedGestureView.swift in Sources */,
 				6050ED70263004A30003FE27 /* CardViewModel.swift in Sources */,
 				608586172637DEE500F2A53A /* MapPin.swift in Sources */,
 				6041C5B226315A230000EA4B /* AuthService.swift in Sources */,
@@ -817,6 +863,7 @@
 				6041C5BA263167D40000EA4B /* SignUpviewModel.swift in Sources */,
 				6041C59A2631507C0000EA4B /* UIConfiguration.swift in Sources */,
 				60783F20262F0F7300204C88 /* ActivityLoaderView.swift in Sources */,
+				6070A37F263C142000D75410 /* FlipCardView.swift in Sources */,
 				60783E05262EB01100204C88 /* AppDelegate.swift in Sources */,
 				60783E49262EE8DB00204C88 /* LoginViewModel.swift in Sources */,
 				60ED954D2632BE1D0089F4D3 /* Model.swift in Sources */,
@@ -826,6 +873,7 @@
 				6041C591263146DF0000EA4B /* CustomModifier.swift in Sources */,
 				606E1E0426397B6800B05CCC /* LocationSearchView.swift in Sources */,
 				6065652F2636D90B007E3DBE /* WebWithScrollView.swift in Sources */,
+				6070A35E263BDE9F00D75410 /* AnimateBandingView.swift in Sources */,
 				6041C5C226316F720000EA4B /* SlpashView.swift in Sources */,
 				60ED94C126329C870089F4D3 /* UserView.swift in Sources */,
 				60ED94BD263299460089F4D3 /* UserViewModel.swift in Sources */,
@@ -834,6 +882,8 @@
 				60ED95622632BF020089F4D3 /* IMGStorageClass.swift in Sources */,
 				6050ED682630029D0003FE27 /* CardView.swift in Sources */,
 				60783E26262EB45D00204C88 /* RxButton.swift in Sources */,
+				6070A366263BE65000D75410 /* ControllingAnimationstackView.swift in Sources */,
+				6070A358263BD67600D75410 /* AnimationDemo.swift in Sources */,
 				60ED955A2632BE650089F4D3 /* DogList.swift in Sources */,
 				60783E34262ED02F00204C88 /* SwiftUIApiCallingView.swift in Sources */,
 				601501972633F0C300DAC3C4 /* CustomScrollView.swift in Sources */,
@@ -854,6 +904,7 @@
 				6015018F2633E65300DAC3C4 /* AnimateImageView.swift in Sources */,
 				60783E07262EB01100204C88 /* SceneDelegate.swift in Sources */,
 				606E1E0A26397BA000B05CCC /* LocationService.swift in Sources */,
+				6070A377263C065100D75410 /* UserView1.swift in Sources */,
 				6041C5C6263170350000EA4B /* WelcomeView.swift in Sources */,
 				606565272636C3C2007E3DBE /* TestAnimationDeactivate.swift in Sources */,
 				6050EE9F2630353C0003FE27 /* BookListView.swift in Sources */,
@@ -869,6 +920,7 @@
 				60783E09262EB01100204C88 /* ContentView.swift in Sources */,
 				608586252637F91700F2A53A /* MapviewTapView.swift in Sources */,
 				60783F19262F0F5F00204C88 /* LoadingView.swift in Sources */,
+				6070A372263C020E00D75410 /* CustomTransitionView.swift in Sources */,
 				608586352638378000F2A53A /* EditMapView.swift in Sources */,
 				6065651D2636B8FE007E3DBE /* ReapetingAnimationView.swift in Sources */,
 				606E1DF6263936F900B05CCC /* MKPointAnnotation-Codable.swift in Sources */,
