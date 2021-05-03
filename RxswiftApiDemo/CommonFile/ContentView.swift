@@ -63,8 +63,15 @@ struct ContentView: View {
                 
          //   TestMapView()
           //  MapShowView()
-            RouteMapView()
+            
+          //  RouteMapView()
+                
+          //  DropdownPicker(title: "select item", selection: , options: <#T##[String]#>)
            // LocationSearchView(locationSearch: LocationService())
+           // AnimationDemo()
+                
+          //  PickerView(selection: 0)
+            MapShowView()
             .tabItem { Label("Menu",systemImage: "plus") }
             
             SlpashView(state: AppState())

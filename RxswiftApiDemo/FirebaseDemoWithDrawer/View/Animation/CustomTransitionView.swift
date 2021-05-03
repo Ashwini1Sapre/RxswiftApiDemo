@@ -7,14 +7,33 @@
 
 import SwiftUI
 
-struct CustomTransitionView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct CustomTransitionView: ViewModifier {
+    
+    let amount: Double
+    let anchor: UnitPoint
+    
+    func body(content: Content) -> some View {
+        content.rotationEffect(.degrees(amount), anchor: anchor).clipped()
     }
 }
 
-struct CustomTransitionView_Previews: PreviewProvider {
-    static var previews: some View {
-        CustomTransitionView()
+
+extension AnyTransition {
+    
+    static var pivote: AnyTransition {
+        .modifier(active: CustomTransitionView(amount: -90, anchor: .topLeading), identity: CustomTransitionView(amount: 0, anchor: .topLeading))
+        
     }
+    
+    
+    
 }
+
+
+
+
+//struct CustomTransitionView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        CustomTransitionView()
+//    }
+//}

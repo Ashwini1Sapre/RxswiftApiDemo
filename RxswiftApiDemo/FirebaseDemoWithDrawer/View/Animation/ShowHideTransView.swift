@@ -8,8 +8,28 @@
 import SwiftUI
 
 struct ShowHideTransView: View {
+    
+    @State private var isShowingRed = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            
+            Button("Tap Mee")
+                {
+                withAnimation {
+                self.isShowingRed.toggle()
+                }
+            }
+            if isShowingRed {
+            Rectangle()
+                .fill(Color.red)
+                .frame(width: 200, height: 200)
+               // .transition(.scale)
+              //  .transition(.asymmetric(insertion: .scale, removal: .opacity))
+                
+                .transition(.pivote)
+                
+            }
+        }
     }
 }
 

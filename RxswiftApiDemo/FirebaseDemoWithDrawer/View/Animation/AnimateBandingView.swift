@@ -8,8 +8,30 @@
 import SwiftUI
 
 struct AnimateBandingView: View {
+    @State private var animationAmont: CGFloat = 1
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            
+            Stepper("Scale amt", value: $animationAmont.animation(), in: 1...10)
+            Spacer()
+            Button("Tap Me") {
+                
+                self.animationAmont += 1
+            }
+             
+            .padding(40)
+            .background(Color.red)
+            .foregroundColor(.white)
+            .clipShape(Circle())
+            .scaleEffect(animationAmont)
+            
+            
+            
+            
+            
+            
+            
+        }
     }
 }
 
