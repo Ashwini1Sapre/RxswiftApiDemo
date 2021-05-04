@@ -148,5 +148,85 @@
             landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DACA2CCD-2D9C-4975-AD1D-3896F79B23F9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RxswiftApiDemo/FirebaseDemoWithDrawer/View/iExpense/ShowFilterImageView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B352B3C-7BBD-4700-BBFE-7D6B3FB317F9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RxswiftApiDemo/FirebaseDemoWithDrawer/View/iExpense/ShowFilterImageView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "9B352B3C-7BBD-4700-BBFE-7D6B3FB317F9 - 27a078198f0c487f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Button&lt;SwiftUI.Text&gt;, SwiftUI.Spacer, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Button&lt;SwiftUI.Text&gt;, SwiftUI.Spacer, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt;&gt;)&gt; in closure #3 () -&gt; &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.actionSheet(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, content: () -&gt; SwiftUI.ActionSheet) -&gt; some&gt;&gt;.0 in RxswiftApiDemo.ShowFilterImageView.body.getter : some"
+                  moduleName = "RxswiftApiDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/knoxpomacbookpro/Desktop/riddhi/RxswiftApiDemo/RxswiftApiDemo/FirebaseDemoWithDrawer/View/iExpense/ShowFilterImageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "510">
+               </Location>
+               <Location
+                  uuid = "9B352B3C-7BBD-4700-BBFE-7D6B3FB317F9 - 7477bbc5b40429a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #4 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Button&lt;SwiftUI.Text&gt;, SwiftUI.Spacer, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Button&lt;SwiftUI.Text&gt;, SwiftUI.Spacer, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt;&gt;)&gt; in closure #3 () -&gt; &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.actionSheet(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, content: () -&gt; SwiftUI.ActionSheet) -&gt; some&gt;&gt;.0 in RxswiftApiDemo.ShowFilterImageView.body.getter : some"
+                  moduleName = "RxswiftApiDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/knoxpomacbookpro/Desktop/riddhi/RxswiftApiDemo/RxswiftApiDemo/FirebaseDemoWithDrawer/View/iExpense/ShowFilterImageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "94">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B222EBC-C3FF-4F88-B1BA-B22DC26A007A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RxswiftApiDemo/FirebaseDemoWithDrawer/View/iExpense/ShowFilterImageView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
+            landmarkName = "loadImage()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

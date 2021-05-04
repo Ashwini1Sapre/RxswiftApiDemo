@@ -15,7 +15,7 @@ struct MultipleAnnotationView: View {
             
             VStack(alignment: .leading)
             {
-            Text("Welcome")
+              Text("Welcome")
             }
             
         }

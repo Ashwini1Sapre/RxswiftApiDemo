@@ -106,6 +106,7 @@
 		60A11679263FCC3D00426545 /* DropdownPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A11678263FCC3D00426545 /* DropdownPicker.swift */; };
 		60A1167D263FDF2600426545 /* PickerWithFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A1167C263FDF2600426545 /* PickerWithFrom.swift */; };
 		60A11681263FE1FF00426545 /* MultpleAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A11680263FE1FF00426545 /* MultpleAlertView.swift */; };
+		60C6E65E264131C700077CBD /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C6E65D264131C700077CBD /* ImageSaver.swift */; };
 		60ED94B9263298EA0089F4D3 /* User1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ED94B8263298EA0089F4D3 /* User1.swift */; };
 		60ED94BD263299460089F4D3 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ED94BC263299460089F4D3 /* UserViewModel.swift */; };
 		60ED94C126329C870089F4D3 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ED94C026329C870089F4D3 /* UserView.swift */; };
@@ -232,6 +233,7 @@
 		60A11678263FCC3D00426545 /* DropdownPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownPicker.swift; sourceTree = "<group>"; };
 		60A1167C263FDF2600426545 /* PickerWithFrom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerWithFrom.swift; sourceTree = "<group>"; };
 		60A11680263FE1FF00426545 /* MultpleAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultpleAlertView.swift; sourceTree = "<group>"; };
+		60C6E65D264131C700077CBD /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 		60ED94B8263298EA0089F4D3 /* User1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User1.swift; sourceTree = "<group>"; };
 		60ED94BC263299460089F4D3 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		60ED94C026329C870089F4D3 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
@@ -523,6 +525,9 @@
 				60A11678263FCC3D00426545 /* DropdownPicker.swift */,
 				60A1167C263FDF2600426545 /* PickerWithFrom.swift */,
 				60A11680263FE1FF00426545 /* MultpleAlertView.swift */,
+				6012CD64263FF33F009A254E /* ShowFilterImageView.swift */,
+				6012CD6A263FFC3C009A254E /* ImagePicker.swift */,
+				60C6E65D264131C700077CBD /* ImageSaver.swift */,
 			);
 			path = iExpense;
 			sourceTree = "<group>";
@@ -631,8 +636,6 @@
 				6085863826383E3800F2A53A /* Result.swift */,
 				606E1DF5263936F900B05CCC /* MKPointAnnotation-Codable.swift */,
 				6012CD5A263FEB96009A254E /* MultipleAnnotationView.swift */,
-				6012CD64263FF33F009A254E /* ShowFilterImageView.swift */,
-				6012CD6A263FFC3C009A254E /* ImagePicker.swift */,
 			);
 			path = CustomMapView;
 			sourceTree = "<group>";
@@ -942,6 +945,7 @@
 				6050ED07262FED450003FE27 /* TextfeildViewNew.swift in Sources */,
 				6065652B2636C843007E3DBE /* CustomPickerview.swift in Sources */,
 				60A11675263FBFB000426545 /* PickerView.swift in Sources */,
+				60C6E65E264131C700077CBD /* ImageSaver.swift in Sources */,
 				6050EE92263027C70003FE27 /* BookViewModel.swift in Sources */,
 				6050EE95263027F00003FE27 /* BooksViewModel.swift in Sources */,
 				60783E45262EE43A00204C88 /* APIHandler.swift in Sources */,
