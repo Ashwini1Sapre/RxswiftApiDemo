@@ -190,12 +190,13 @@ struct ShowFilterImageView: View {
         
         Cifilernew.setValue(filterIntensesity, forKey: kCIInputIntensityKey)
         
+       // Cifilernew.setValue = Float(filterIntensesity)
         guard let outputImage = Cifilernew.outputImage else { return }
         
         if let cgimg = context.createCGImage(outputImage, from: outputImage.extent) {
         let uiImage = UIImage(cgImage: cgimg)
         image = Image(uiImage: uiImage)
-        processImage = uiImage
+        //processImage = uiImage
         
         }
         //Slider(value: intensity)
