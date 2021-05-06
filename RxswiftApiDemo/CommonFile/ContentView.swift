@@ -72,8 +72,13 @@ struct ContentView: View {
                 
           //  PickerView(selection: 0)
           //  MapShowView()
+           // ShowFilterImageView()
+            
             ShowFilterImageView()
             .tabItem { Label("Menu",systemImage: "plus") }
+            
+            
+            
             
             SlpashView(state: AppState())
                 .tabItem {

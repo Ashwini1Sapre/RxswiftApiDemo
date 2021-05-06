@@ -13,18 +13,18 @@ struct StarViewModel: Shape {
     let smothness: CGFloat
     
     
-    func path(in  rect: CGRect) -> Path {
+    func path(in rect: CGRect) -> Path {
         
         guard corner >= 2  else {
             return Path()
         }
         
-        let center = CGPoint(x:rect.width, y:rect.height)
-        
-        var currentAngel = -CGFloat.pi/2
+        let center = CGPoint(x: rect.width / 2, y: rect.height / 2)
+         
+        var currentAngel = -CGFloat.pi / 2
         let angelAdjust = .pi * 2 / CGFloat(corner * 2)
-        let innerX = center.x + smothness
-        let innerY = center.y + smothness
+        let innerX = center.x * smothness
+        let innerY = center.y * smothness
         var path = Path()
         
         path.move(to: CGPoint(x: center.x * cos(currentAngel), y: center.y * sin(currentAngel)))
@@ -37,7 +37,7 @@ struct StarViewModel: Shape {
             let sinAngle = sin(currentAngel)
             let cosAngle = cos(currentAngel)
             
-            let bottom: CGFloat
+            var bottom: CGFloat
             
             if corner.isMultiple(of: 2) {
                 
@@ -59,14 +59,14 @@ struct StarViewModel: Shape {
             
             if bottom > bottomEdge {
                 
-                bottom = bottomEdge
+                bottomEdge = bottom
                 
             }
             currentAngel += angelAdjust
             
         }
         
-        let unusedSpace = (rect.height/2 * bottomEdge) / 2
+        let unusedSpace = (rect.height / 2 - bottomEdge) / 2
         
         let transfrom = CGAffineTransform(translationX: center.x, y: center.y + unusedSpace)
         return path.applying(transfrom)
