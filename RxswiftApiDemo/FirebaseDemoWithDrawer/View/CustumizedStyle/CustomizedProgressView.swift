@@ -15,7 +15,7 @@ struct CustomizedProgressView: View {
     var body: some View {
       //  Text("seccc")
         ProgressView(value: progress, total: 1.0)
-        .progressViewStyle(GaugeProgressStyle())
+        .progressViewStyle(MyCustomProgressViewStyle())
             .frame(width: 200, height: 200)
             .contentShape(Rectangle())
             .onTapGesture {

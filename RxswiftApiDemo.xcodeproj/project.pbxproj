@@ -111,7 +111,20 @@
 		60A11679263FCC3D00426545 /* DropdownPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A11678263FCC3D00426545 /* DropdownPicker.swift */; };
 		60A1167D263FDF2600426545 /* PickerWithFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A1167C263FDF2600426545 /* PickerWithFrom.swift */; };
 		60A11681263FE1FF00426545 /* MultpleAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A11680263FE1FF00426545 /* MultpleAlertView.swift */; };
+		60AC83D82644214800558965 /* CustomizedIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AC83D72644214800558965 /* CustomizedIndicatorView.swift */; };
 		60C6E65E264131C700077CBD /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C6E65D264131C700077CBD /* ImageSaver.swift */; };
+		60D749D32645110A0092BA01 /* QRCodeScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D749D22645110A0092BA01 /* QRCodeScanView.swift */; };
+		60D749DA264511380092BA01 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 60D749D9264511380092BA01 /* CodeScanner */; };
+		60D749DE264513D80092BA01 /* ScannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D749DD264513D80092BA01 /* ScannerViewModel.swift */; };
+		60D749E226451C830092BA01 /* QrCodeCameraDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D749E126451C830092BA01 /* QrCodeCameraDelegate.swift */; };
+		60D749E6264521F40092BA01 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D749E5264521F40092BA01 /* CameraPreview.swift */; };
+		60D749F0264526F10092BA01 /* QrCodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D749EF264526F10092BA01 /* QrCodeScannerView.swift */; };
+		60D749F526453A570092BA01 /* MakeACallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D749F426453A570092BA01 /* MakeACallView.swift */; };
+		60D749FC26453DE40092BA01 /* BarCodeScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D749FB26453DE40092BA01 /* BarCodeScanView.swift */; };
+		60D74A0526455B720092BA01 /* QRCodeWith4CornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D74A0426455B720092BA01 /* QRCodeWith4CornerView.swift */; };
+		60D74A09264562730092BA01 /* ImplicitAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D74A08264562730092BA01 /* ImplicitAnimationView.swift */; };
+		60D74A0D264565010092BA01 /* AnimationExpliitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D74A0C264565000092BA01 /* AnimationExpliitView.swift */; };
+		60D74A112645693A0092BA01 /* ClockShapeAniView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D74A102645693A0092BA01 /* ClockShapeAniView.swift */; };
 		60ED94B9263298EA0089F4D3 /* User1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ED94B8263298EA0089F4D3 /* User1.swift */; };
 		60ED94BD263299460089F4D3 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ED94BC263299460089F4D3 /* UserViewModel.swift */; };
 		60ED94C126329C870089F4D3 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ED94C026329C870089F4D3 /* UserView.swift */; };
@@ -243,7 +256,19 @@
 		60A11678263FCC3D00426545 /* DropdownPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownPicker.swift; sourceTree = "<group>"; };
 		60A1167C263FDF2600426545 /* PickerWithFrom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerWithFrom.swift; sourceTree = "<group>"; };
 		60A11680263FE1FF00426545 /* MultpleAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultpleAlertView.swift; sourceTree = "<group>"; };
+		60AC83D72644214800558965 /* CustomizedIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedIndicatorView.swift; sourceTree = "<group>"; };
 		60C6E65D264131C700077CBD /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		60D749D22645110A0092BA01 /* QRCodeScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScanView.swift; sourceTree = "<group>"; };
+		60D749DD264513D80092BA01 /* ScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewModel.swift; sourceTree = "<group>"; };
+		60D749E126451C830092BA01 /* QrCodeCameraDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeCameraDelegate.swift; sourceTree = "<group>"; };
+		60D749E5264521F40092BA01 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		60D749EF264526F10092BA01 /* QrCodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeScannerView.swift; sourceTree = "<group>"; };
+		60D749F426453A570092BA01 /* MakeACallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeACallView.swift; sourceTree = "<group>"; };
+		60D749FB26453DE40092BA01 /* BarCodeScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeScanView.swift; sourceTree = "<group>"; };
+		60D74A0426455B720092BA01 /* QRCodeWith4CornerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeWith4CornerView.swift; sourceTree = "<group>"; };
+		60D74A08264562730092BA01 /* ImplicitAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitAnimationView.swift; sourceTree = "<group>"; };
+		60D74A0C264565000092BA01 /* AnimationExpliitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExpliitView.swift; sourceTree = "<group>"; };
+		60D74A102645693A0092BA01 /* ClockShapeAniView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockShapeAniView.swift; sourceTree = "<group>"; };
 		60ED94B8263298EA0089F4D3 /* User1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User1.swift; sourceTree = "<group>"; };
 		60ED94BC263299460089F4D3 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		60ED94C026329C870089F4D3 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
@@ -275,6 +300,7 @@
 				6050ED58262FF6F90003FE27 /* SDWebImageSwiftUI in Frameworks */,
 				6050ED54262FF6D30003FE27 /* SwiftyJSON in Frameworks */,
 				3DE15777B48A49A659986275 /* Pods_RxswiftApiDemo.framework in Frameworks */,
+				60D749DA264511380092BA01 /* CodeScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +351,9 @@
 		6041C5A7263157940000EA4B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				60D749FA26453DC70092BA01 /* BarCodeScan */,
+				60D749F326453A230092BA01 /* Make a Phone call */,
+				60D749CF264510E20092BA01 /* QRCOde */,
 				605E59F82642AEA60071B2A3 /* CustumizedStyle */,
 				6070A375263C062600D75410 /* iExpense */,
 				6070A356263BD5F100D75410 /* Animation */,
@@ -504,6 +533,7 @@
 				605E5A032642BBA00071B2A3 /* CustumizedToggleView.swift */,
 				605E5A092642C1270071B2A3 /* CustomizedPathView.swift */,
 				605E5A0D2642C44F0071B2A3 /* CustomizsedShapeView.swift */,
+				60AC83D72644214800558965 /* CustomizedIndicatorView.swift */,
 			);
 			path = CustumizedStyle;
 			sourceTree = "<group>";
@@ -535,6 +565,9 @@
 				6070A361263BE39400D75410 /* ExplicitAnimattion.swift */,
 				6070A36D263BFFDB00D75410 /* ShowHideTransView.swift */,
 				6070A371263C020E00D75410 /* CustomTransitionView.swift */,
+				60D74A08264562730092BA01 /* ImplicitAnimationView.swift */,
+				60D74A0C264565000092BA01 /* AnimationExpliitView.swift */,
+				60D74A102645693A0092BA01 /* ClockShapeAniView.swift */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -663,6 +696,35 @@
 			path = CustomMapView;
 			sourceTree = "<group>";
 		};
+		60D749CF264510E20092BA01 /* QRCOde */ = {
+			isa = PBXGroup;
+			children = (
+				60D749D22645110A0092BA01 /* QRCodeScanView.swift */,
+				60D749DD264513D80092BA01 /* ScannerViewModel.swift */,
+				60D749E126451C830092BA01 /* QrCodeCameraDelegate.swift */,
+				60D749E5264521F40092BA01 /* CameraPreview.swift */,
+				60D749EF264526F10092BA01 /* QrCodeScannerView.swift */,
+				60D74A0426455B720092BA01 /* QRCodeWith4CornerView.swift */,
+			);
+			path = QRCOde;
+			sourceTree = "<group>";
+		};
+		60D749F326453A230092BA01 /* Make a Phone call */ = {
+			isa = PBXGroup;
+			children = (
+				60D749F426453A570092BA01 /* MakeACallView.swift */,
+			);
+			path = "Make a Phone call";
+			sourceTree = "<group>";
+		};
+		60D749FA26453DC70092BA01 /* BarCodeScan */ = {
+			isa = PBXGroup;
+			children = (
+				60D749FB26453DE40092BA01 /* BarCodeScanView.swift */,
+			);
+			path = BarCodeScan;
+			sourceTree = "<group>";
+		};
 		60ED954B2632BE020089F4D3 /* DogDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -759,6 +821,7 @@
 				6050ED53262FF6D30003FE27 /* SwiftyJSON */,
 				6050ED57262FF6F90003FE27 /* SDWebImageSwiftUI */,
 				6050EE4B263021B70003FE27 /* ObjectMapper */,
+				60D749D9264511380092BA01 /* CodeScanner */,
 			);
 			productName = RxswiftApiDemo;
 			productReference = 60783E01262EB01100204C88 /* RxswiftApiDemo.app */;
@@ -795,6 +858,7 @@
 				6050ED52262FF6D30003FE27 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 				6050ED56262FF6F90003FE27 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 				6050EE4A263021B70003FE27 /* XCRemoteSwiftPackageReference "ObjectMapper" */,
+				60D749D8264511380092BA01 /* XCRemoteSwiftPackageReference "CodeScanner" */,
 			);
 			productRefGroup = 60783E02262EB01100204C88 /* Products */;
 			projectDirPath = "";
@@ -910,15 +974,18 @@
 				6050ED61262FF8B90003FE27 /* NetworkManager.swift in Sources */,
 				6050EE99263035120003FE27 /* BookEditView.swift in Sources */,
 				60783E41262EE3FF00204C88 /* LoginHandler.swift in Sources */,
+				60D749E6264521F40092BA01 /* CameraPreview.swift in Sources */,
 				60783E58262F01E700204C88 /* DogView.swift in Sources */,
 				6041C5BA263167D40000EA4B /* SignUpviewModel.swift in Sources */,
 				6041C59A2631507C0000EA4B /* UIConfiguration.swift in Sources */,
 				60783F20262F0F7300204C88 /* ActivityLoaderView.swift in Sources */,
 				6070A37F263C142000D75410 /* FlipCardView.swift in Sources */,
 				60783E05262EB01100204C88 /* AppDelegate.swift in Sources */,
+				60AC83D82644214800558965 /* CustomizedIndicatorView.swift in Sources */,
 				60783E49262EE8DB00204C88 /* LoginViewModel.swift in Sources */,
 				60ED954D2632BE1D0089F4D3 /* Model.swift in Sources */,
 				6041C58C263146420000EA4B /* User.swift in Sources */,
+				60D749F526453A570092BA01 /* MakeACallView.swift in Sources */,
 				60A11681263FE1FF00426545 /* MultpleAlertView.swift in Sources */,
 				6050ED5C262FF8130003FE27 /* CardModel.swift in Sources */,
 				6050EE8C263025F30003FE27 /* Book.swift in Sources */,
@@ -934,15 +1001,19 @@
 				60ED95622632BF020089F4D3 /* IMGStorageClass.swift in Sources */,
 				6050ED682630029D0003FE27 /* CardView.swift in Sources */,
 				60783E26262EB45D00204C88 /* RxButton.swift in Sources */,
+				60D74A0526455B720092BA01 /* QRCodeWith4CornerView.swift in Sources */,
 				6070A366263BE65000D75410 /* ControllingAnimationstackView.swift in Sources */,
 				6070A358263BD67600D75410 /* AnimationDemo.swift in Sources */,
 				60ED955A2632BE650089F4D3 /* DogList.swift in Sources */,
 				60783E34262ED02F00204C88 /* SwiftUIApiCallingView.swift in Sources */,
+				60D749D32645110A0092BA01 /* QRCodeScanView.swift in Sources */,
 				605E5A042642BBA00071B2A3 /* CustumizedToggleView.swift in Sources */,
 				605E5A0E2642C44F0071B2A3 /* CustomizsedShapeView.swift in Sources */,
 				605E5A0A2642C1270071B2A3 /* CustomizedPathView.swift in Sources */,
 				601501972633F0C300DAC3C4 /* CustomScrollView.swift in Sources */,
+				60D749DE264513D80092BA01 /* ScannerViewModel.swift in Sources */,
 				60ED95532632BE480089F4D3 /* DogViewModel.swift in Sources */,
+				60D74A09264562730092BA01 /* ImplicitAnimationView.swift in Sources */,
 				6041C6D8263180750000EA4B /* DrawerContent.swift in Sources */,
 				6050EE4726300DCD0003FE27 /* RxswiftApiDemoModel.xcdatamodeld in Sources */,
 				60783E22262EB08300204C88 /* RxLoaderView.swift in Sources */,
@@ -957,6 +1028,7 @@
 				6041C6D22631767F0000EA4B /* SignUPView.swift in Sources */,
 				6041C5B62631602C0000EA4B /* SatusViewModel.swift in Sources */,
 				6041C5A4263156F70000EA4B /* AppState.swift in Sources */,
+				60D749FC26453DE40092BA01 /* BarCodeScanView.swift in Sources */,
 				6015018F2633E65300DAC3C4 /* AnimateImageView.swift in Sources */,
 				60783E07262EB01100204C88 /* SceneDelegate.swift in Sources */,
 				606E1E0A26397BA000B05CCC /* LocationService.swift in Sources */,
@@ -965,6 +1037,7 @@
 				606565272636C3C2007E3DBE /* TestAnimationDeactivate.swift in Sources */,
 				6050EE9F2630353C0003FE27 /* BookListView.swift in Sources */,
 				6050EE9C2630352A0003FE27 /* BookDetailView.swift in Sources */,
+				60D749F0264526F10092BA01 /* QrCodeScannerView.swift in Sources */,
 				6041C6E0263184DD0000EA4B /* SignInView.swift in Sources */,
 				6015019B263406E000DAC3C4 /* TestWrappedLayout.swift in Sources */,
 				608586312638364600F2A53A /* MKAnnotation.swift in Sources */,
@@ -975,12 +1048,15 @@
 				605E59FA2642AED60071B2A3 /* CustomizedButtonview.swift in Sources */,
 				60C6E65E264131C700077CBD /* ImageSaver.swift in Sources */,
 				6050EE92263027C70003FE27 /* BookViewModel.swift in Sources */,
+				60D74A0D264565010092BA01 /* AnimationExpliitView.swift in Sources */,
 				6050EE95263027F00003FE27 /* BooksViewModel.swift in Sources */,
 				60783E45262EE43A00204C88 /* APIHandler.swift in Sources */,
 				60783E09262EB01100204C88 /* ContentView.swift in Sources */,
 				608586252637F91700F2A53A /* MapviewTapView.swift in Sources */,
+				60D749E226451C830092BA01 /* QrCodeCameraDelegate.swift in Sources */,
 				60783F19262F0F5F00204C88 /* LoadingView.swift in Sources */,
 				6070A372263C020E00D75410 /* CustomTransitionView.swift in Sources */,
+				60D74A112645693A0092BA01 /* ClockShapeAniView.swift in Sources */,
 				608586352638378000F2A53A /* EditMapView.swift in Sources */,
 				6065651D2636B8FE007E3DBE /* ReapetingAnimationView.swift in Sources */,
 				606E1DF6263936F900B05CCC /* MKPointAnnotation-Codable.swift in Sources */,
@@ -1272,6 +1348,14 @@
 				minimumVersion = 4.2.0;
 			};
 		};
+		60D749D8264511380092BA01 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.7;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1289,6 +1373,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 6050EE4A263021B70003FE27 /* XCRemoteSwiftPackageReference "ObjectMapper" */;
 			productName = ObjectMapper;
+		};
+		60D749D9264511380092BA01 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60D749D8264511380092BA01 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
 		};
 /* End XCSwiftPackageProductDependency section */
 

@@ -23,6 +23,58 @@ struct BlueButton:ButtonStyle {
     }
 }
 
+//for outline style for button
+struct OutlineStyle: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .frame(width: 64, height: 44)
+            .padding(.horizontal)
+            .foregroundColor(Color.accentColor)
+            .background(RoundedRectangle(cornerRadius: 3))
+    }
+    
+    
+    
+}
+
+//struct for fill style of button
+
+struct FillStyle: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        
+        
+        
+        configuration.label
+            .frame(width:64, height: 44)
+            .padding(.horizontal)
+            .foregroundColor(configuration.isPressed ? .gray : .white)
+            .background(Color.accentColor)
+            .cornerRadius(8)
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 struct ButtonViewShow: View {
     
     var body: some View {
@@ -32,7 +84,7 @@ struct ButtonViewShow: View {
             print("button pressed")
             
         }
-        .buttonStyle(BlueButton())
+        .buttonStyle(FillStyle())
         
     }
     

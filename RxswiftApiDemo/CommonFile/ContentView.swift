@@ -74,7 +74,11 @@ struct ContentView: View {
           //  MapShowView()
            // ShowFilterImageView()
             
-            ShowFilterImageView()
+          //  ShowFilterImageView()
+            CodeScannerView(codeTypes: [.qr]) { result in
+                
+                
+            }
             .tabItem { Label("Menu",systemImage: "plus") }
             
             
