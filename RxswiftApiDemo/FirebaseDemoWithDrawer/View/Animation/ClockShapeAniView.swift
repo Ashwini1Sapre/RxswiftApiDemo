@@ -7,14 +7,6 @@
 
 import SwiftUI
 
-//struct ClockShapeAniView: View {
-//    var body: some View {
-//       // ClockShapeAniView
-//    }
-//}
-
-
-
 struct ClockTime {
     var hours: Int
     var mins: Int
@@ -48,12 +40,6 @@ struct ClockTime {
     
     func asString() -> String {
         
-//        return String(format: "%2i", self.hours)
-//            + ":" +
-//            String(formate: "%02i", self.mins)
-//            + ":" +
-//            String(formate: "%02f", self.sec)
-        
        return String(format: "%2i", self.hours) + ":" + String(format: "%02i", self.mins) + ":" + String(format: "%02f", self.sec)
 
         
@@ -81,16 +67,17 @@ extension ClockTime: VectorArithmetic {
         lhs = lhs - rhs
         
     }
-    static func += (lhs: inout ClockTime, rhs: ClockTime) {
-        
-        lhs = lhs + rhs
-    }
-    
     static func - (lhs: ClockTime, rhs: ClockTime) -> ClockTime {
         
         return ClockTime(lhs.asSecond - rhs.asSecond)
     }
     
+    static func += (lhs: inout ClockTime, rhs: ClockTime) {
+        
+        lhs = lhs + rhs
+    }
+    
+   
     static func + (lhs: ClockTime, rhs: ClockTime) -> ClockTime
     
     {
@@ -118,8 +105,3 @@ extension ClockTime: VectorArithmetic {
 }
 
 
-//struct ClockShapeAniView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ClockShapeAniView()
-//    }
-//}

@@ -75,10 +75,11 @@ struct ContentView: View {
            // ShowFilterImageView()
             
           //  ShowFilterImageView()
-            CodeScannerView(codeTypes: [.qr]) { result in
+            //CodeScannerView(codeTypes: [.qr]) { result in
+               
+           // }
                 
-                
-            }
+            ClockAnimationView()
             .tabItem { Label("Menu",systemImage: "plus") }
             
             
