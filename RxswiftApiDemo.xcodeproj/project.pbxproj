@@ -141,6 +141,8 @@
 		60EE8C732646615A00604E58 /* ClockAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EE8C722646615A00604E58 /* ClockAnimationView.swift */; };
 		60EE8C7726466E6500604E58 /* PloygonShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EE8C7626466E6500604E58 /* PloygonShape.swift */; };
 		60EE8C7B264672D300604E58 /* PolygonLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EE8C7A264672D300604E58 /* PolygonLineView.swift */; };
+		60EE8C7F26467F8500604E58 /* SimplePolygonShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EE8C7E26467F8500604E58 /* SimplePolygonShape.swift */; };
+		60EE8C83264682AF00604E58 /* MainPolygonShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EE8C82264682AF00604E58 /* MainPolygonShapeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -289,6 +291,8 @@
 		60EE8C722646615A00604E58 /* ClockAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockAnimationView.swift; sourceTree = "<group>"; };
 		60EE8C7626466E6500604E58 /* PloygonShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PloygonShape.swift; sourceTree = "<group>"; };
 		60EE8C7A264672D300604E58 /* PolygonLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolygonLineView.swift; sourceTree = "<group>"; };
+		60EE8C7E26467F8500604E58 /* SimplePolygonShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePolygonShape.swift; sourceTree = "<group>"; };
+		60EE8C82264682AF00604E58 /* MainPolygonShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPolygonShapeView.swift; sourceTree = "<group>"; };
 		61A99CF99208707D964F73E1 /* Pods_RxswiftApiDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxswiftApiDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -580,6 +584,8 @@
 				60EE8C722646615A00604E58 /* ClockAnimationView.swift */,
 				60EE8C7A264672D300604E58 /* PolygonLineView.swift */,
 				60EE8C7626466E6500604E58 /* PloygonShape.swift */,
+				60EE8C7E26467F8500604E58 /* SimplePolygonShape.swift */,
+				60EE8C82264682AF00604E58 /* MainPolygonShapeView.swift */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -985,6 +991,7 @@
 				6041C5B226315A230000EA4B /* AuthService.swift in Sources */,
 				6050ED61262FF8B90003FE27 /* NetworkManager.swift in Sources */,
 				6050EE99263035120003FE27 /* BookEditView.swift in Sources */,
+				60EE8C7F26467F8500604E58 /* SimplePolygonShape.swift in Sources */,
 				60783E41262EE3FF00204C88 /* LoginHandler.swift in Sources */,
 				60D749E6264521F40092BA01 /* CameraPreview.swift in Sources */,
 				60783E58262F01E700204C88 /* DogView.swift in Sources */,
@@ -1032,6 +1039,7 @@
 				6050EE4726300DCD0003FE27 /* RxswiftApiDemoModel.xcdatamodeld in Sources */,
 				60783E22262EB08300204C88 /* RxLoaderView.swift in Sources */,
 				6050ED65262FFA490003FE27 /* NetworkService.swift in Sources */,
+				60EE8C83264682AF00604E58 /* MainPolygonShapeView.swift in Sources */,
 				60783E29262EB64900204C88 /* RXAlamafireApi.swift in Sources */,
 				6041C5A0263153880000EA4B /* UIColorEx.swift in Sources */,
 				606565232636BE93007E3DBE /* StopAnimatingView.swift in Sources */,
